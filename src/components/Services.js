@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoIosAnalytics } from 'react-icons/io'
 
 const Services = () => (
     <section className='section'>
@@ -10,6 +11,7 @@ const Services = () => (
             </h2>
             <div className='columns'>
                 <div className='column '>
+                    <IoIosAnalytics />
                     <h2 className='title is-3'>Omfattande helhetsanalys</h2>
                     <p>
                         För att garantera träffsäkerheten i våra åtgärder ser vi
@@ -18,6 +20,7 @@ const Services = () => (
                     </p>
                 </div>
                 <div className='column '>
+                    <IoIosAnalytics />
                     <h2 className='title is-3'>Synlighet/trafik</h2>
                     <p>
                         Genom effektiva punktinsatser ökar vi er hemsidas
@@ -26,6 +29,7 @@ const Services = () => (
                     </p>
                 </div>
                 <div className='column '>
+                    <IoIosAnalytics />
                     <h2 className='title is-3'>Konvertering</h2>
                     <p>
                         Vi nöjer oss inte med att bara locka fler besökare till
@@ -36,6 +40,7 @@ const Services = () => (
             </div>
             <div class='columns'>
                 <div className='column '>
+                    <IoIosAnalytics />
                     <h2 className='title is-3'>Resurseffektivitet</h2>
                     <p>
                         Vi vill att synlighet och konvertering ska vara
@@ -45,6 +50,7 @@ const Services = () => (
                     </p>
                 </div>
                 <div className='column '>
+                    <IoIosAnalytics />
                     <h2 className='title is-3'>Uppföljning</h2>
                     <p>
                         Vi håller vad vi lovar och därför är vi noggranna i vår
