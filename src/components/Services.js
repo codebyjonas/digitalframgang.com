@@ -2,7 +2,7 @@ import React from 'react'
 import { IoIosAnalytics } from 'react-icons/io'
 
 const Services = () => (
-    <section className='section'>
+    <section className='section is-medium'>
         <div className='container'>
             <h1 className='title is-2'>Våra tjänster</h1>
             <h2 className='subtitle'>
