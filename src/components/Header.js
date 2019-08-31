@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => (
     <nav
-        className='navbar is-transparent is-fixed-top'
+        className='navbar is-transparent is-fixed-top is-primary'
         role='navigation'
         aria-label='main navigation'
     >

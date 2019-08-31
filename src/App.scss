@@ -12,6 +12,7 @@ $beige-lighter: #eff0eb;
 $green: #043a35;
 $green-light: #0a6a61;
 $orange: #f39200;
+$orange-light: #ffa319c9;
 $blue-light: #d3f4fd;
 
 // Update Bulma's global variables
@@ -45,7 +46,8 @@ $footer-padding: 12rem;
 @import '../node_modules/bulma/sass/form/_all.sass';
 
 //importing other style files
-@import './style/hero.scss';
+@import './style/hero';
+@import './style/services';
 
 // Setting font
 .title,
@@ -67,6 +69,9 @@ $footer-padding: 12rem;
 }
 .is-white {
     color: white;
+}
+.has-orange-light {
+    color: $orange-light;
 }
 
 .card-shadow {
