@@ -35,7 +35,7 @@ $footer-padding: 12rem;
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/base/_all.sass';
-@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
 @import '../node_modules/bulma/sass/elements/container.sass';
 @import '../node_modules/bulma/sass/elements/box.sass';
 @import '../node_modules/bulma/sass/elements/title.sass';
@@ -51,10 +51,14 @@ $footer-padding: 12rem;
 
 // Setting font
 .title,
-.button {
+.button,
+.navbar-item {
     font-family: $family-secondary;
 }
 
+.navbar-item {
+    letter-spacing: 1px;
+}
 // Setting colors for titles
 .title.is-2 {
     color: $green;
