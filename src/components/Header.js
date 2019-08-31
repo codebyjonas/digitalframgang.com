@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Header = () => (
-    <nav className='navbar' role='navigation' aria-label='main navigation'>
+    <nav className='navbar is-transparent is-fixed-top' role='navigation' aria-label='main navigation'>
         <div className='navbar-brand'>
             <h1 className='navbar-item'>Tell.se</h1>
             <a
                 role='button'
-                class='navbar-burger'
+                className='navbar-burger'
                 aria-label='menu'
                 aria-expanded='false'
             >
@@ -15,11 +15,11 @@ const Header = () => (
                 <span aria-hidden='true' />
             </a>
         </div>
-        <div class='navbar-menu'>
-            <a className='navbar-item'>Tjänster</a>
-            <a className='navbar-item'>Tjänster</a>
-            <a className='navbar-item'>Tjänster</a>
-            <a className='navbar-item'>Tjänster</a>
+        <div className='navbar-menu navbar-end '>
+            <a className='navbar-item is-header-text'>Tjänster</a>
+            <a className='navbar-item is-header-text'>Tjänster</a>
+            <a className='navbar-item is-header-text'>Tjänster</a>
+            <a className='navbar-item is-header-text'>Tjänster</a>
         </div>
     </nav>
 )

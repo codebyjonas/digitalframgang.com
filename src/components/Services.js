@@ -5,13 +5,13 @@ const Services = () => (
     <section className='section is-medium'>
         <div className='container'>
             <h1 className='title is-2'>Våra tjänster</h1>
-            <h2 className='subtitle'>
+        {/*}    <h2 className='subtitle'>
                 Vi erbjuder en hel del bra tjänster inom SEO och
                 konverteringsoptimering
-            </h2>
+            </h2> */}
             <div className='columns'>
-                <div className='column '>
-                    <IoIosAnalytics />
+                <div className='column card-shadow'>
+                    {/*<IoIosAnalytics />*/}
                     <h2 className='title is-3'>Omfattande helhetsanalys</h2>
                     <p>
                         För att garantera träffsäkerheten i våra åtgärder ser vi
@@ -19,8 +19,8 @@ const Services = () => (
                         ert företag”
                     </p>
                 </div>
-                <div className='column '>
-                    <IoIosAnalytics />
+                <div className='column card-shadow'>
+
                     <h2 className='title is-3'>Synlighet/trafik</h2>
                     <p>
                         Genom effektiva punktinsatser ökar vi er hemsidas
@@ -28,8 +28,7 @@ const Services = () => (
                         istället för till konkurrenterna“
                     </p>
                 </div>
-                <div className='column '>
-                    <IoIosAnalytics />
+                <div className='column card-shadow'>
                     <h2 className='title is-3'>Konvertering</h2>
                     <p>
                         Vi nöjer oss inte med att bara locka fler besökare till
@@ -38,9 +37,8 @@ const Services = () => (
                     </p>
                 </div>
             </div>
-            <div class='columns'>
-                <div className='column '>
-                    <IoIosAnalytics />
+            <div className='columns'>
+                <div className='column card-shadow'>
                     <h2 className='title is-3'>Resurseffektivitet</h2>
                     <p>
                         Vi vill att synlighet och konvertering ska vara
@@ -49,8 +47,7 @@ const Services = () => (
                         det
                     </p>
                 </div>
-                <div className='column '>
-                    <IoIosAnalytics />
+                <div className='column card-shadow'>
                     <h2 className='title is-3'>Uppföljning</h2>
                     <p>
                         Vi håller vad vi lovar och därför är vi noggranna i vår

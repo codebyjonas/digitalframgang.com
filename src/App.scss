@@ -9,18 +9,23 @@ $pink: #fa7c91;
 $brown: #757763;
 $beige-light: #d0d1cd;
 $beige-lighter: #eff0eb;
+$green: #043a35;
+$green-light: #0a6a61;
+$orange: #f39200;
+$blue-light: #d3f4fd;
+
 
 // Update Bulma's global variables
 $family-sans-serif: 'Nunito', sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
+$primary: $green;
+$link: $orange;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: white;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
@@ -37,3 +42,59 @@ $input-shadow: none;
 @import '../node_modules/bulma/sass/layout/section.sass';
 @import '../node_modules/bulma/sass/grid/columns.sass';
 @import '../node_modules/bulma/sass/form/_all.sass';
+
+//importing other style files
+@import'./style/hero.scss';
+
+// Setting colors for titles
+
+.title.is-2 {
+    color: $green;
+}
+.title.is-3 {
+    color: $green-light;
+}
+
+.large-spacing{
+    letter-spacing: 4px;
+    line-height: 150%;
+}
+.is-white {
+    color: white;
+}
+
+.card-shadow {
+    border-bottom: 4px solid $blue-light;
+    margin: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    box-shadow:0px 20px 30px #EBECEF;
+}
+
+.why-section{
+    background-color: #f3f3f3dd;
+}
+
+.input  {
+    background-color: #dddcdc;
+}
+
+.textarea  {
+    background-color: #dddcdc;
+}
+
+.navbar{
+    position: absolute;
+    background-color: transparent;
+}
+.navbar-menu {
+    position: relative;
+}
+.navbar-end {
+    position: relative;
+}
+
+.is-header-text{
+    color: white;
+    letter-spacing: 5px
+}

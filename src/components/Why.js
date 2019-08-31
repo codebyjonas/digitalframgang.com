@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Why = () => (
-    <section className='section is-medium'>
+    <section className='section is-medium why-section'>
         <div className='container'>
             <h2 className='title is-1'>Varför välja oss</h2>
             <p>
