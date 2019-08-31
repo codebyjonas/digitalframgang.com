@@ -10,8 +10,10 @@ const Hero = () => (
                     försäljning
                 </h2>
                 <div className='buttons'>
-                    <a className='button is-primary is-large'>Kontakta oss idag!</a>
-                    <a className='button is-link is-large'>
+                    <a className='button is-primary is-medium'>
+                        Kontakta oss idag!
+                    </a>
+                    <a className='button is-link is-medium'>
                         Vill du bli kontaktad?
                     </a>
                 </div>

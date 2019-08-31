@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat&display=swap');
 
 // Set your brand colors
 $purple: #8a4d76;
@@ -14,9 +14,9 @@ $green-light: #0a6a61;
 $orange: #f39200;
 $blue-light: #d3f4fd;
 
-
 // Update Bulma's global variables
-$family-sans-serif: 'Nunito', sans-serif;
+$family-sans-serif: 'Merriweather', sans-serif;
+$family-secondary: 'Montserrat', sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
 $primary: $green;
@@ -29,6 +29,7 @@ $body-background-color: white;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
+$footer-padding: 12rem;
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
@@ -44,10 +45,15 @@ $input-shadow: none;
 @import '../node_modules/bulma/sass/form/_all.sass';
 
 //importing other style files
-@import'./style/hero.scss';
+@import './style/hero.scss';
+
+// Setting font
+.title,
+.button {
+    font-family: $family-secondary;
+}
 
 // Setting colors for titles
-
 .title.is-2 {
     color: $green;
 }
@@ -55,7 +61,7 @@ $input-shadow: none;
     color: $green-light;
 }
 
-.large-spacing{
+.large-spacing {
     letter-spacing: 4px;
     line-height: 150%;
 }
@@ -64,26 +70,27 @@ $input-shadow: none;
 }
 
 .card-shadow {
+    box-shadow: 0px 20px 30px #ebecef;
     border-bottom: 4px solid $blue-light;
     margin: 10px;
     margin-bottom: 25px;
+    padding: 2rem;
     position: relative;
-    box-shadow:0px 20px 30px #EBECEF;
 }
 
-.why-section{
+.why-section {
     background-color: #f3f3f3dd;
 }
 
-.input  {
+.input {
     background-color: #dddcdc;
 }
 
-.textarea  {
+.textarea {
     background-color: #dddcdc;
 }
 
-.navbar{
+.navbar {
     position: absolute;
     background-color: transparent;
 }
@@ -94,7 +101,7 @@ $input-shadow: none;
     position: relative;
 }
 
-.is-header-text{
+.is-header-text {
     color: white;
-    letter-spacing: 5px
+    letter-spacing: 5px;
 }

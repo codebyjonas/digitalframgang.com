@@ -5,7 +5,7 @@ import Services from './components/Services'
 import Why from './components/Why'
 import AboutUs from './components/AboutUs'
 import './App.scss'
-import How from './components/How'
+import Footer from './components/Footer'
 import SubHero from './components/SubHero'
 import Contact from './components/Contact'
 
@@ -18,6 +18,7 @@ const App = () => (
         <SubHero />
         <AboutUs />
         <Contact />
+        <Footer />
     </>
 )
 

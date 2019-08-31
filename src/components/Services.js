@@ -3,9 +3,9 @@ import { IoIosAnalytics } from 'react-icons/io'
 
 const Services = () => (
     <section className='section is-medium'>
-        <div className='container'>
+        <div className='container is-fluid'>
             <h1 className='title is-2'>Våra tjänster</h1>
-        {/*}    <h2 className='subtitle'>
+            {/*}    <h2 className='subtitle'>
                 Vi erbjuder en hel del bra tjänster inom SEO och
                 konverteringsoptimering
             </h2> */}
@@ -20,7 +20,6 @@ const Services = () => (
                     </p>
                 </div>
                 <div className='column card-shadow'>
-
                     <h2 className='title is-3'>Synlighet/trafik</h2>
                     <p>
                         Genom effektiva punktinsatser ökar vi er hemsidas

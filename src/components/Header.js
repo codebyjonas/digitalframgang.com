@@ -1,7 +1,11 @@
 import React from 'react'
 
 const Header = () => (
-    <nav className='navbar is-transparent is-fixed-top' role='navigation' aria-label='main navigation'>
+    <nav
+        className='navbar is-transparent is-fixed-top'
+        role='navigation'
+        aria-label='main navigation'
+    >
         <div className='navbar-brand'>
             <h1 className='navbar-item'>Tell.se</h1>
             <a
