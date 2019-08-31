@@ -8,7 +8,9 @@ class Contact extends React.Component {
         this.state = {
             formName: '',
             formMail: '',
-            formMsg: ''
+            formMsg: '',
+            status: '',
+            isLoading: false
         }
         this.formMsgUpdate = this.formMsgUpdate.bind(this)
         this.formMailUpdate = this.formMailUpdate.bind(this)
@@ -27,6 +29,7 @@ class Contact extends React.Component {
     }
 
     sendForm() {
+        this.setState({isLoading: true})
         let template_params = {
            "from_name": this.state.formName,
            "from_email": this.state.formMail,
@@ -36,12 +39,42 @@ class Contact extends React.Component {
         emailjs.send('mailjet','wiptemplate', template_params, 'user_zL8VRuFhehLoHA6KiAnrI')
         .then((response) => {
            console.log('SUCCESS!', response.status, response.text);
+           this.setState({isLoading: false})
+           this.resetState()
+           this.setState({status: "Tack! Vi hör av oss inom en arbetsdag"})
         }, (err) => {
            console.log('FAILED...', err);
+           this.setState({isLoading: false})
+           this.setState({status: "Något blev fel, försök igen eller skicka ett mail till angiven mailadress till vänster"})
         });
+
+
+
+    }
+
+    resetState(){
+        this.setState({
+            formMail: '',
+            formName: '',
+            formMsg: '',
+            status: 'hejhehj testeesetsetset',
+            isLoading: false
+        })
     }
 
     render () {
+        let statusText
+
+        if(this.state.status != ''){
+            statusText= <div class="notification is-info">
+                                    <p>
+                                        {this.state.status}
+                                    </p>
+                                </div>
+        } else {
+            statusText = <p>{this.state.status}</p>
+        }
+
         return(
             <section className='section is-medium has-img-background'>
                 <div id='contact-container' className='container has-white-background'>
@@ -49,6 +82,7 @@ class Contact extends React.Component {
 
                         <div className='column'>
                             <h2 className='title is-2 large-spacing'>Låt oss hjälpa er till en bättre image online</h2>
+                            <p>Kontakta oss istället? Mail: exempel@mail.com</p>
                         </div>
 
                         <div className='column'>
@@ -88,10 +122,16 @@ class Contact extends React.Component {
                                         onChange={this.formMsgUpdate} />
                                 </div>
                             </div>
-
                             <div className='field has-text-centered'>
-                                <div className='control'>
-                                    <button className='button is-link' onClick={this.sendForm}>Submit</button>
+                                <div className="columns">
+                                    <div className="column">
+                                        <div className='control'>
+                                            <button className={'button is-link' + (this.state.isLoading ? 'is-loading': '')} onClick={this.sendForm}>Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    {statusText}
                                 </div>
                             </div>
                         </div>
