@@ -22,7 +22,7 @@ const links = [
 
 const Header = () => (
     <nav
-        className='navbar is-transparent is-fixed-top is-primary'
+        className='navbar is-fixed-top is-primary'
         role='navigation'
         aria-label='main navigation'
     >
@@ -46,6 +46,8 @@ const Header = () => (
                     to={link.link}
                     smooth={true}
                     duration={500}
+                    activeClass='is-active'
+                    spy={true}
                 >
                     {link.displayName}
                 </Link>
