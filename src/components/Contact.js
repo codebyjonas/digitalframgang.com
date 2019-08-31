@@ -1,54 +1,56 @@
 import React from 'react'
-import * as emailjs from 'emailjs-com';
-
+import * as emailjs from 'emailjs-com'
 
 class Contact extends React.Component {
-    constructor(){
-        super()
-        this.state = {
-            formName: '',
-            formMail: '',
-            formMsg: ''
-        }
-        this.formMsgUpdate = this.formMsgUpdate.bind(this)
-        this.formMailUpdate = this.formMailUpdate.bind(this)
-        this.formNameUpdate = this.formNameUpdate.bind(this)
-        this.sendForm = this.sendForm.bind(this)
+    state = {
+        formName: '',
+        formMail: '',
+        formMsg: ''
     }
 
-    formMsgUpdate(event){
-        this.setState({formMsg: event.target.value})
+    formMsgUpdate = event => {
+        this.setState({ formMsg: event.target.value })
     }
-    formMailUpdate(event){
-        this.setState({formMail: event.target.value})
+    formMailUpdate = event => {
+        this.setState({ formMail: event.target.value })
     }
-    formNameUpdate(event){
-        this.setState({formName: event.target.value})
+    formNameUpdate = event => {
+        this.setState({ formName: event.target.value })
     }
 
-    sendForm() {
+    sendForm = () => {
         let template_params = {
-           "from_name": this.state.formName,
-           "from_email": this.state.formMail,
-           "message": this.state.formMsg
+            from_name: this.state.formName,
+            from_email: this.state.formMail,
+            message: this.state.formMsg
         }
 
-        emailjs.send('mailjet','wiptemplate', template_params, 'user_zL8VRuFhehLoHA6KiAnrI')
-        .then((response) => {
-           console.log('SUCCESS!', response.status, response.text);
-        }, (err) => {
-           console.log('FAILED...', err);
-        });
+        emailjs
+            .send(
+                'mailjet',
+                'wiptemplate',
+                template_params,
+                'user_zL8VRuFhehLoHA6KiAnrI'
+            )
+            .then(
+                response => {
+                    console.log('SUCCESS!', response.status, response.text)
+                },
+                err => {
+                    console.log('FAILED...', err)
+                }
+            )
     }
 
-    render () {
-        return(
-            <section className='section is-medium'>
+    render() {
+        return (
+            <section id='contact' className='section is-medium'>
                 <div className='container'>
                     <div className='columns'>
-
                         <div className='column'>
-                            <h2 className='title is-2 large-spacing'>Låt oss hjälpa er till en bättre image online</h2>
+                            <h2 className='title is-2 large-spacing'>
+                                Låt oss hjälpa er till en bättre image online
+                            </h2>
                         </div>
 
                         <div className='column'>
@@ -85,23 +87,27 @@ class Contact extends React.Component {
                                         className='textarea'
                                         placeholder='Skriv meddelande här...'
                                         value={this.state.formMsg}
-                                        onChange={this.formMsgUpdate} />
+                                        onChange={this.formMsgUpdate}
+                                    />
                                 </div>
                             </div>
 
                             <div className='field'>
                                 <div className='control'>
-                                    <button className='button is-link' onClick={this.sendForm}>Submit</button>
+                                    <button
+                                        className='button is-link'
+                                        onClick={this.sendForm}
+                                    >
+                                        Submit
+                                    </button>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
         )
-
     }
 }
 
-export default Contact;
+export default Contact

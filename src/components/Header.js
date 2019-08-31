@@ -1,5 +1,24 @@
 import React from 'react'
 
+const links = [
+    {
+        displayName: 'Våra tjänster',
+        link: '#services'
+    },
+    {
+        displayName: 'Varför oss',
+        link: '#why-us'
+    },
+    {
+        displayName: 'Vilka är vi',
+        link: '#about-us'
+    },
+    {
+        displayName: 'Kontakta oss',
+        link: '#contact'
+    }
+]
+
 const Header = () => (
     <nav
         className='navbar is-transparent is-fixed-top is-primary'
@@ -19,11 +38,12 @@ const Header = () => (
                 <span aria-hidden='true' />
             </a>
         </div>
-        <div className='navbar-menu navbar-end '>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
+        <div className='navbar-menu navbar-end'>
+            {links.map(link => (
+                <a className='navbar-item' href={link.link}>
+                    {link.displayName}
+                </a>
+            ))}
         </div>
     </nav>
 )
