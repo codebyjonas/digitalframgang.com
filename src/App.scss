@@ -35,6 +35,10 @@ $footer-padding: 12rem;
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/elements/_all.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/box.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
 @import '../node_modules/bulma/sass/components/navbar.sass';
 @import '../node_modules/bulma/sass/layout/hero.sass';
 @import '../node_modules/bulma/sass/layout/section.sass';
@@ -49,10 +53,14 @@ $footer-padding: 12rem;
 
 // Setting font
 .title,
-.button {
+.button,
+.navbar-item {
     font-family: $family-secondary;
 }
 
+.navbar-item {
+    letter-spacing: 1px;
+}
 // Setting colors for titles
 .title.is-2 {
     color: $green;
@@ -108,11 +116,10 @@ $footer-padding: 12rem;
     color: white;
     letter-spacing: 5px;
 }
-.has-white-background{
+.has-white-background {
     background-color: white;
 }
 .has-img-background {
     background-image: url('./assets/hero-image.jpg');
     background-size: cover;
-
 }
