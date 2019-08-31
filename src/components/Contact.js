@@ -44,7 +44,7 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <section id='contact' className='section is-medium'>
+            <section id='contact' name='contact' className='section is-medium'>
                 <div className='container'>
                     <div className='columns'>
                         <div className='column'>

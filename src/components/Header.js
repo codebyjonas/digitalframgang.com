@@ -1,21 +1,22 @@
 import React from 'react'
+import { Link, animateScroll as Scroll } from 'react-scroll'
 
 const links = [
     {
         displayName: 'Våra tjänster',
-        link: '#services'
+        link: 'services'
     },
     {
         displayName: 'Varför oss',
-        link: '#why-us'
+        link: 'why-us'
     },
     {
         displayName: 'Vilka är vi',
-        link: '#about-us'
+        link: 'about-us'
     },
     {
         displayName: 'Kontakta oss',
-        link: '#contact'
+        link: 'contact'
     }
 ]
 
@@ -40,9 +41,14 @@ const Header = () => (
         </div>
         <div className='navbar-menu navbar-end'>
             {links.map(link => (
-                <a className='navbar-item' href={link.link}>
+                <Link
+                    className='navbar-item'
+                    to={link.link}
+                    smooth={true}
+                    duration={500}
+                >
                     {link.displayName}
-                </a>
+                </Link>
             ))}
         </div>
     </nav>

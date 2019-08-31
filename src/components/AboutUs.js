@@ -1,7 +1,7 @@
 import React from 'react'
 
 const AboutUs = () => (
-    <section id='about-us' className='section is-medium'>
+    <section id='about-us' name='about-us' className='section is-medium'>
         <div className='container'>
             <h2 className='title is-1'>Vilka är vi</h2>
             <p>
