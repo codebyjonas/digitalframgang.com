@@ -48,6 +48,7 @@ $footer-padding: 12rem;
 //importing other style files
 @import './style/hero';
 @import './style/services';
+@import './style/contact';
 
 // Setting font
 .title,
@@ -109,4 +110,12 @@ $footer-padding: 12rem;
 .is-header-text {
     color: white;
     letter-spacing: 5px;
+}
+.has-white-background{
+    background-color: white;
+}
+.has-img-background {
+    background-image: url('./assets/hero-image.jpg');
+    background-size: cover;
+
 }

@@ -43,8 +43,8 @@ class Contact extends React.Component {
 
     render () {
         return(
-            <section className='section is-medium'>
-                <div className='container'>
+            <section className='section is-medium has-img-background'>
+                <div id='contact-container' className='container has-white-background'>
                     <div className='columns'>
 
                         <div className='column'>
@@ -89,7 +89,7 @@ class Contact extends React.Component {
                                 </div>
                             </div>
 
-                            <div className='field'>
+                            <div className='field has-text-centered'>
                                 <div className='control'>
                                     <button className='button is-link' onClick={this.sendForm}>Submit</button>
                                 </div>
