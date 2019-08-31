@@ -1,8 +1,28 @@
 import React from 'react'
+import { Link, animateScroll as Scroll } from 'react-scroll'
+
+const links = [
+    {
+        displayName: 'Våra tjänster',
+        link: 'services'
+    },
+    {
+        displayName: 'Varför oss',
+        link: 'why-us'
+    },
+    {
+        displayName: 'Vilka är vi',
+        link: 'about-us'
+    },
+    {
+        displayName: 'Kontakta oss',
+        link: 'contact'
+    }
+]
 
 const Header = () => (
     <nav
-        className='navbar is-transparent is-fixed-top is-primary'
+        className='navbar is-fixed-top is-primary'
         role='navigation'
         aria-label='main navigation'
     >
@@ -19,11 +39,19 @@ const Header = () => (
                 <span aria-hidden='true' />
             </a>
         </div>
-        <div className='navbar-menu navbar-end '>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
-            <a className='navbar-item is-header-text'>Tjänster</a>
+        <div className='navbar-menu navbar-end'>
+            {links.map(link => (
+                <Link
+                    className='navbar-item'
+                    to={link.link}
+                    smooth={true}
+                    duration={500}
+                    activeClass='is-active'
+                    spy={true}
+                >
+                    {link.displayName}
+                </Link>
+            ))}
         </div>
     </nav>
 )

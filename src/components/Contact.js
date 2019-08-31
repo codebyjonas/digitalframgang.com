@@ -1,6 +1,5 @@
 import React from 'react'
-import * as emailjs from 'emailjs-com';
-
+import * as emailjs from 'emailjs-com'
 
 class Contact extends React.Component {
     constructor(){
@@ -12,31 +11,33 @@ class Contact extends React.Component {
             status: '',
             isLoading: false
         }
-        this.formMsgUpdate = this.formMsgUpdate.bind(this)
-        this.formMailUpdate = this.formMailUpdate.bind(this)
-        this.formNameUpdate = this.formNameUpdate.bind(this)
-        this.sendForm = this.sendForm.bind(this)
+
     }
 
-    formMsgUpdate(event){
-        this.setState({formMsg: event.target.value})
+    formMsgUpdate = event => {
+        this.setState({ formMsg: event.target.value })
     }
-    formMailUpdate(event){
-        this.setState({formMail: event.target.value})
+    formMailUpdate = event => {
+        this.setState({ formMail: event.target.value })
     }
-    formNameUpdate(event){
-        this.setState({formName: event.target.value})
+    formNameUpdate = event => {
+        this.setState({ formName: event.target.value })
     }
 
-    sendForm() {
+    sendForm = () => {
         this.setState({isLoading: true})
         let template_params = {
-           "from_name": this.state.formName,
-           "from_email": this.state.formMail,
-           "message": this.state.formMsg
+            from_name: this.state.formName,
+            from_email: this.state.formMail,
+            message: this.state.formMsg
         }
 
-        emailjs.send('mailjet','wiptemplate', template_params, 'user_zL8VRuFhehLoHA6KiAnrI')
+        emailjs.send(
+            'mailjet',
+            'wiptemplate',
+             template_params,
+             'user_zL8VRuFhehLoHA6KiAnrI'
+         )
         .then((response) => {
            console.log('SUCCESS!', response.status, response.text);
            this.setState({isLoading: false})
@@ -57,7 +58,7 @@ class Contact extends React.Component {
             formMail: '',
             formName: '',
             formMsg: '',
-            status: 'hejhehj testeesetsetset',
+            status: '',
             isLoading: false
         })
     }
@@ -79,7 +80,6 @@ class Contact extends React.Component {
             <section className='section is-medium has-img-background'>
                 <div id='contact-container' className='container has-white-background'>
                     <div className='columns'>
-
                         <div className='column'>
                             <h2 className='title is-2 large-spacing'>Låt oss hjälpa er till en bättre image online</h2>
                             <p>Kontakta oss istället? Mail: exempel@mail.com</p>
@@ -119,14 +119,17 @@ class Contact extends React.Component {
                                         className='textarea'
                                         placeholder='Skriv meddelande här...'
                                         value={this.state.formMsg}
-                                        onChange={this.formMsgUpdate} />
+                                        onChange={this.formMsgUpdate}
+                                    />
                                 </div>
                             </div>
                             <div className='field has-text-centered'>
                                 <div className="columns">
                                     <div className="column">
                                         <div className='control'>
-                                            <button className={'button is-link' + (this.state.isLoading ? 'is-loading': '')} onClick={this.sendForm}>Submit</button>
+                                            <button className={'button is-link' + (this.state.isLoading ? 'is-loading': '')}
+                                                onClick={this.sendForm}
+                                                >Submit</button>
                                         </div>
                                     </div>
                                 </div>
@@ -135,13 +138,11 @@ class Contact extends React.Component {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
         )
-
     }
 }
 
-export default Contact;
+export default Contact
