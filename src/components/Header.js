@@ -20,10 +20,8 @@ const links = [
     }
 ]
 
-
-
 class Header extends React.Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
             navbarScrollState: 'navbar-transparent'
@@ -31,25 +29,27 @@ class Header extends React.Component {
     }
 
     listenScrollEvent = e => {
-       if (window.scrollY > 740) {
-           this.setState({navbarScrollState: 'is-primary'})
-       } else {
-           this.setState({navbarScrollState: 'navbar-transparent'})
-       }
-     }
+        if (window.scrollY > 740) {
+            this.setState({ navbarScrollState: 'is-primary' })
+        } else {
+            this.setState({ navbarScrollState: 'navbar-transparent' })
+        }
+    }
 
-     componentDidMount() {
-       window.addEventListener('scroll', this.listenScrollEvent)
-     }
-    render () {
-        return(
+    componentDidMount() {
+        window.addEventListener('scroll', this.listenScrollEvent)
+    }
+    render() {
+        return (
             <nav
-                className={'navbar is-fixed-top ' + this.state.navbarScrollState}
+                className={
+                    'navbar is-fixed-top ' + this.state.navbarScrollState
+                }
                 role='navigation'
                 aria-label='main navigation'
             >
                 <div className='navbar-brand'>
-                    <h1 className='navbar-item'>Tell.se</h1>
+                    <h1 className='navbar-item'>Digital Framgång</h1>
                     <a
                         role='button'
                         className='navbar-burger'
@@ -77,8 +77,7 @@ class Header extends React.Component {
                 </div>
             </nav>
         )
-
     }
 }
 
-export default Header;
+export default Header
