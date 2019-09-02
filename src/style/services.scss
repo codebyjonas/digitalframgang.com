@@ -3,3 +3,10 @@
         margin-left: 0.5rem;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    #services{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

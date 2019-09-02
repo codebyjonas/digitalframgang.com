@@ -81,7 +81,7 @@ class Contact extends React.Component {
                 <div id='contact-container' className='container has-white-background'>
                     <div className='columns'>
                         <div className='column'>
-                            <h2 className='title is-2 large-spacing'>Låt oss hjälpa er till en bättre image online</h2>
+                            <h2 className='title is-2'>Låt oss hjälpa er till en bättre image online!</h2>
                             <p>Kontakta oss istället? Mail: exempel@mail.com</p>
                         </div>
 

@@ -7,7 +7,7 @@ const Why = () => (
         className='section is-medium why-section'
     >
         <div className='container'>
-            <h2 className='title is-1'>Varför välja oss?</h2>
+            <h2 className='title is-1 has-blue-sidebar'>Varför välja oss?</h2>
             <p>
                 Vi är ett kostnadseffektivt alternativ för små och medelstora
                 företag som vill öka sin försäljning. Oavsett om ni är ett

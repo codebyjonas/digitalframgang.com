@@ -26,7 +26,7 @@ const members = [
 const AboutUs = () => (
     <section id='about-us' name='about-us' className='section is-medium'>
         <div className='container'>
-            <h2 className='title is-1'>Vilka är vi</h2>
+            <h2 className='title is-1 has-blue-sidebar'>Vilka är vi?</h2>
             <p>
                 Tell grundades av fyra studenter på Linköpings Universitet med
                 syfte är att hjälpa små och medelstora företag i närområdet att
@@ -46,7 +46,7 @@ const AboutUs = () => (
                 <div className='columns'>
                     {members.map(member => (
                         <div className='column has-text-centered'>
-                            <figure className='image is-square'>
+                            <figure id="profile-image" className='image is-square'>
                                 <img
                                     className='is-rounded'
                                     src={require(`../assets/${member.id}.jpg`)}
