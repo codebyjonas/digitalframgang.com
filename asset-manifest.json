@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WIP-Tell.se/static/css/main.479b24da.chunk.css",
+    "main.js": "/WIP-Tell.se/static/js/main.04e4f8b4.chunk.js",
+    "main.js.map": "/WIP-Tell.se/static/js/main.04e4f8b4.chunk.js.map",
+    "runtime~main.js": "/WIP-Tell.se/static/js/runtime~main.a8c20e31.js",
+    "runtime~main.js.map": "/WIP-Tell.se/static/js/runtime~main.a8c20e31.js.map",
+    "static/js/2.7030d7eb.chunk.js": "/WIP-Tell.se/static/js/2.7030d7eb.chunk.js",
+    "static/js/2.7030d7eb.chunk.js.map": "/WIP-Tell.se/static/js/2.7030d7eb.chunk.js.map",
+    "index.html": "/WIP-Tell.se/index.html",
+    "precache-manifest.ab3562657b01287fafcfb64e91a0839e.js": "/WIP-Tell.se/precache-manifest.ab3562657b01287fafcfb64e91a0839e.js",
+    "service-worker.js": "/WIP-Tell.se/service-worker.js",
+    "static/css/main.479b24da.chunk.css.map": "/WIP-Tell.se/static/css/main.479b24da.chunk.css.map",
+    "static/media/App.scss": "/WIP-Tell.se/static/media/hero-image.78f77396.jpg",
+    "static/media/jesperhedlund.jpg": "/WIP-Tell.se/static/media/jesperhedlund.c36668ba.jpg",
+    "static/media/jonasolaussen.jpg": "/WIP-Tell.se/static/media/jonasolaussen.ea1d6a09.jpg",
+    "static/media/nilsjonsson.jpg": "/WIP-Tell.se/static/media/nilsjonsson.6405b8db.jpg",
+    "static/media/oskarberggren.jpg": "/WIP-Tell.se/static/media/oskarberggren.78c02144.jpg"
+  }
+}
