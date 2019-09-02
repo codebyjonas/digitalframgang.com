@@ -61,7 +61,7 @@ const Services = () => (
                                 <MdLoop />
                             </span>
                         </div>
-                        <div>
+                        <div className='column'>
                             <h2 className='title is-3'>Konvertering</h2>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ const Services = () => (
                                 <MdAttachMoney />
                             </span>
                         </div>
-                        <div>
+                        <div className='column'>
                             <h2 className='title is-3'>Resurseffektivitet</h2>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ const Services = () => (
                                 <FaMailBulk />
                             </span>
                         </div>
-                        <div>
+                        <div className='column'>
                             <h2 className='title is-3'>Uppföljning</h2>
                         </div>
                     </div>

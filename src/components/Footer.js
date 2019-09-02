@@ -13,11 +13,11 @@ const Footer = () => (
                 </div>
                 <div className='column'>
                     <strong>Adress</strong>
-                    <p >Vallavägen 6</p>
-                    <p>58215</p>
-                    <p>Linköping</p>
-                    <p>Mail:example@mail.com</p>
-                    <p>Tele: 0738969209</p>
+                    <p className="no-margin-bot">Vallavägen 6</p>
+                    <p className="no-margin-bot">58215</p>
+                    <p className="no-margin-bot">Linköping</p>
+                    <p className="no-margin-bot">Mail:example@mail.com</p>
+                    <p className="no-margin-bot">Tele: 0738969209</p>
                 </div>
 
             </div>

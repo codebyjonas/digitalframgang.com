@@ -92,7 +92,7 @@ class Contact extends React.Component {
                                     <input
                                         className='input'
                                         type='text'
-                                        placeholder='Text input'
+                                        placeholder='namn...'
                                         value={this.state.formName}
                                         onChange={this.formNameUpdate}
                                     />
