@@ -116,6 +116,15 @@ $footer-padding: 12rem;
     position: relative;
 }
 
+.navbar-transparent {
+    background-color: transparent;
+    color: white;
+}
+.navbar-transparent a,
+.navbar-transparent h1 {
+    color: white;
+}
+
 .is-header-text {
     color: white;
     letter-spacing: 5px;
