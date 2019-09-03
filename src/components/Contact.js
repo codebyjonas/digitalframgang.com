@@ -77,7 +77,7 @@ class Contact extends React.Component {
         }
 
         return(
-            <section className='section is-medium has-img-background'>
+            <section id='contact' name='contact-us' className='section is-medium has-img-background'>
                 <div id='contact-container' className='container has-white-background'>
                     <div className='columns'>
                         <div className='column'>

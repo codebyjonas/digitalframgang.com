@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as Scroll } from 'react-scroll'
+import { Link} from 'react-scroll'
 
 const links = [
     {
@@ -16,7 +16,7 @@ const links = [
     },
     {
         displayName: 'Kontakta oss',
-        link: 'contact'
+        link: 'contact-us'
     }
 ]
 

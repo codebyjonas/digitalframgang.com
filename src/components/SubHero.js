@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link} from 'react-scroll'
 
 const SubHero = () => (
     <section className='hero is-info is-medium'>
@@ -6,10 +7,17 @@ const SubHero = () => (
             <div className='container'>
                 <h1 className='title is-3'>Vill du höra mer?</h1>
                 <div className='buttons'>
-                    <a class='button is-primary is-large'>Kontakta oss idag!</a>
-                    <a class='button is-link is-large'>
-                        Vill du bli kontaktad?
-                    </a>
+                    <div id='hero-button' className='buttons'>
+                        <Link className='button is-link is-large'
+                            to="contact-us"
+                            smooth={true}
+                            duration={500}
+                            activeClass='is-active'
+                            spy={true}>
+                            Bli kontaktad
+                        </Link>
+
+                    </div>
                 </div>
             </div>
         </div>
