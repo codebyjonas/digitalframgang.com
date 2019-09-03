@@ -62,7 +62,7 @@ $footer-padding: 12rem;
     letter-spacing: 1px;
 }
 // Setting colors for titles
-.has-blue-sidebar{
+.has-blue-sidebar {
     border-left: 3px solid lightblue;
     padding-left: 10px;
 }
@@ -119,6 +119,9 @@ $footer-padding: 12rem;
 .navbar-transparent {
     background-color: transparent;
     color: white;
+    @media only screen and (max-width: 450px) {
+        background-color: $primary;
+    }
 }
 .navbar-transparent a,
 .navbar-transparent h1 {
@@ -148,7 +151,6 @@ $footer-padding: 12rem;
     box-shadow: -1px 10px 16px 1px #d3d3d3;
 }
 
-
 @media only screen and (max-width: 450px) {
     #profile-image {
         width: 220px;
@@ -163,5 +165,4 @@ $footer-padding: 12rem;
         margin-top: 3rem;
         margin-bottom: -1rem;
     }
-
 }

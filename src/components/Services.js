@@ -24,9 +24,7 @@ const Services = () => (
                             </span>
                         </div>
                         <div className='column'>
-                            <h2 className='title is-3'>
-                                Omfattande helhetsanalys
-                            </h2>
+                            <h2 className='title is-3'>Helhetsanalys</h2>
                         </div>
                     </div>
                     <div>
@@ -45,7 +43,7 @@ const Services = () => (
                             </span>
                         </div>
                         <div className='column'>
-                            <h2 className='title is-3'>Synlighet/trafik</h2>
+                            <h2 className='title is-3'>Synlighet online</h2>
                         </div>
                     </div>
                     <p>
