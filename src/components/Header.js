@@ -21,24 +21,32 @@ const links = [
 ]
 
 class Header extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            navbarScrollState: 'navbar-transparent'
-        }
+    state = {
+        navbarScrollState: 'navbar-transparent',
+        showMobileMenu: false
     }
 
     listenScrollEvent = e => {
-        if (window.scrollY > 740) {
-            this.setState({ navbarScrollState: 'is-primary' })
-        } else {
-            this.setState({ navbarScrollState: 'navbar-transparent' })
+        if (!this.state.showMobileMenu) {
+            if (window.scrollY > 740) {
+                this.setState({ navbarScrollState: 'is-primary' })
+            } else {
+                this.setState({ navbarScrollState: 'navbar-transparent' })
+            }
         }
     }
 
-    componentDidMount() {
+    componentDidMount = () => {
         window.addEventListener('scroll', this.listenScrollEvent)
     }
+
+    toggleMobileMenu = () => {
+        this.setState(prevState => ({
+            showMobileMenu: !prevState.showMobileMenu,
+            navbarScrollState: 'is-primary'
+        }))
+    }
+
     render() {
         return (
             <nav
@@ -55,13 +63,19 @@ class Header extends React.Component {
                         className='navbar-burger'
                         aria-label='menu'
                         aria-expanded='false'
+                        onClick={this.toggleMobileMenu}
                     >
                         <span aria-hidden='true' />
                         <span aria-hidden='true' />
                         <span aria-hidden='true' />
                     </a>
                 </div>
-                <div className='navbar-menu navbar-end'>
+                <div
+                    className={
+                        'navbar-menu navbar-end ' +
+                        (this.state.showMobileMenu && 'is-active')
+                    }
+                >
                     {links.map(link => (
                         <Link
                             className='navbar-item'
