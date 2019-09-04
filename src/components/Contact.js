@@ -129,7 +129,7 @@ class Contact extends React.Component {
                                         <div className='control'>
                                             <button className={'button is-link' + (this.state.isLoading ? 'is-loading': '')}
                                                 onClick={this.sendForm}
-                                                >Submit</button>
+                                                >Skicka</button>
                                         </div>
                                     </div>
                                 </div>
