@@ -10,11 +10,7 @@ import { FaMailBulk } from 'react-icons/fa'
 const Services = () => (
     <section id='services' name='services' className='section is-medium'>
         <div className='container is-fluid'>
-            <h1 className='title is-2 has-blue-sidebar'>Våra tjänster</h1>
-            {/*}    <h2 className='subtitle'>
-                Vi erbjuder en hel del bra tjänster inom SEO och
-                konverteringsoptimering
-            </h2> */}
+            <h1 className='title is-2 has-blue-sidebar'>Vårt erbjudande</h1>
             <div className='columns'>
                 <div className='column card-shadow'>
                     <div className='columns is-vcentered'>
