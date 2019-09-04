@@ -25,9 +25,8 @@ const Services = () => (
                     </div>
                     <div>
                         <p>
-                            För att garantera träffsäkerheten i våra åtgärder
-                            ser vi till att skaffa oss en gedigen bild av er
-                            målkund och ert företag”
+                            För att garantera träffsäkerheten i våra åtgärder ser vi till att
+                            erhålla en tydlig bild av både ert företag och era målkunder
                         </p>
                     </div>
                 </div>
@@ -39,13 +38,12 @@ const Services = () => (
                             </span>
                         </div>
                         <div className='column'>
-                            <h2 className='title is-3'>Synlighet online</h2>
+                            <h2 className='title is-3'>Synlighet</h2>
                         </div>
                     </div>
                     <p>
-                        Genom effektiva punktinsatser ökar vi er hemsidas
-                        synlighet så att potentiella kunder hittar till er
-                        istället för till konkurrenterna“
+                        Genom effektiva punktinsatser gör vi er hemsida synlig - Så att potentiella kunder
+                        hittar till er istället för till konkurrenterna
                     </p>
                 </div>
                 <div className='column card-shadow'>
@@ -60,9 +58,8 @@ const Services = () => (
                         </div>
                     </div>
                     <p>
-                        Vi nöjer oss inte med att bara locka fler besökare till
-                        er hemsidan utan vi hjälper er även att konvertera dessa
-                        besökare till faktiska kunder{' '}
+                        Vi nöjer oss inte med att enbart locka fler besökare till er hemsida
+                         - Vi hjälper er även att konvertera dessa besökare till kunder
                     </p>
                 </div>
             </div>
@@ -80,9 +77,11 @@ const Services = () => (
                     </div>
                     <p>
                         Vi vill att synlighet och konvertering ska vara
-                        tillgängligt för alla. Därför fokuserar vi på att
-                        leverera högeffektiva lösningar utan att krångla till
-                        det
+                         tillgängligt för alla företag. Därför fokuserar
+                          vi på att leverera högeffektiva lösningar utan
+                           att krångla till det. Sanningen är att man når
+                            väldigt goda resultat med en relativt låg
+                        insats - Förutsatt att man fokuserar på rätt saker
                     </p>
                 </div>
                 <div className='column card-shadow'>
@@ -97,11 +96,12 @@ const Services = () => (
                         </div>
                     </div>
                     <p>
-                        Vi håller vad vi lovar och därför är vi noggranna i vår
-                        uppföljning. För att ni kontinuerligt ska kunna följa
-                        upp och förbättra er digitala närvaro inkluderar vi även
-                        ett användarvänligt uppföljningsverktyg, helt utan extra
-                        kostnad
+                        Vi håller vad vi lovar och därför är vi
+                        noggranna i vår uppföljning. För att ni
+                        kontinuerligt ska kunna följa upp och
+                        förbättra upp er digitala närvaro
+                        inkluderar vi även ett användarvänligt
+                        uppföljningsverktyg - Helt utan extra kostnad
                     </p>
                 </div>
             </div>
