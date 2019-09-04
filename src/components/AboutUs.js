@@ -4,22 +4,22 @@ const members = [
     {
         id: 'oskarberggren',
         name: 'Oskar Berggren',
-        role: 'Ekonomiansvarig'
+        role: 'Konsult'
     },
     {
         id: 'jesperhedlund',
         name: 'Jesper Hedlund',
-        role: 'Implementationsnsvarig'
+        role: 'Konsult'
     },
     {
         id: 'nilsjonsson',
         name: 'Nils Jonsson',
-        role: 'IT Ansvarig'
+        role: 'Konsult'
     },
     {
         id: 'jonasolaussen',
         name: 'Jonas Olaussen',
-        role: 'Allansvarig'
+        role: 'VD & Konsult'
     }
 ]
 
