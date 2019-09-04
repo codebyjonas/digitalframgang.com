@@ -29,7 +29,7 @@ const AboutUs = () => (
             <h2 className='title is-1 has-blue-sidebar'>Vilka är vi?</h2>
             <p>
                 Digital Framgång grundades av fyra studenter på Linköpings
-                Universitet med syfte är att hjälpa små och medelstora företag i
+                Universitet med syfte att hjälpa små och medelstora företag i
                 närområdet att öka sin försäljning genom en god digital närvaro.
                 Genom att driva mer relevant trafik till våra kunders hemsidor
                 samt höja deras konverteringsgrad stärker vi våra kunders
