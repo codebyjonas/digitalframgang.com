@@ -2,7 +2,7 @@ import React from 'react'
 import * as emailjs from 'emailjs-com'
 
 class Contact extends React.Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
             formName: '',
@@ -11,7 +11,6 @@ class Contact extends React.Component {
             status: '',
             isLoading: false
         }
-
     }
 
     formMsgUpdate = event => {
@@ -25,35 +24,41 @@ class Contact extends React.Component {
     }
 
     sendForm = () => {
-        this.setState({isLoading: true})
+        this.setState({ isLoading: true })
         let template_params = {
             from_name: this.state.formName,
             from_email: this.state.formMail,
             message: this.state.formMsg
         }
 
-        emailjs.send(
-            'mailjet',
-            'wiptemplate',
-             template_params,
-             'user_zL8VRuFhehLoHA6KiAnrI'
-         )
-        .then((response) => {
-           console.log('SUCCESS!', response.status, response.text);
-           this.setState({isLoading: false})
-           this.resetState()
-           this.setState({status: "Tack! Vi hör av oss inom en arbetsdag"})
-        }, (err) => {
-           console.log('FAILED...', err);
-           this.setState({isLoading: false})
-           this.setState({status: "Något blev fel, försök igen eller skicka ett mail till angiven mailadress till vänster"})
-        });
-
-
-
+        emailjs
+            .send(
+                'mailjet',
+                'wiptemplate',
+                template_params,
+                'user_zL8VRuFhehLoHA6KiAnrI'
+            )
+            .then(
+                response => {
+                    console.log('SUCCESS!', response.status, response.text)
+                    this.setState({ isLoading: false })
+                    this.resetState()
+                    this.setState({
+                        status: 'Tack! Vi hör av oss inom en arbetsdag'
+                    })
+                },
+                err => {
+                    console.log('FAILED...', err)
+                    this.setState({ isLoading: false })
+                    this.setState({
+                        status:
+                            'Något blev fel, försök igen eller skicka ett mail till angiven mailadress till vänster'
+                    })
+                }
+            )
     }
 
-    resetState(){
+    resetState() {
         this.setState({
             formMail: '',
             formName: '',
@@ -63,26 +68,38 @@ class Contact extends React.Component {
         })
     }
 
-    render () {
+    render() {
         let statusText
 
-        if(this.state.status != ''){
-            statusText= <div class="notification is-info">
-                                    <p>
-                                        {this.state.status}
-                                    </p>
-                                </div>
+        if (this.state.status != '') {
+            statusText = (
+                <div class='notification is-info'>
+                    <p>{this.state.status}</p>
+                </div>
+            )
         } else {
             statusText = <p>{this.state.status}</p>
         }
 
-        return(
-            <section id='contact' name='contact-us' className='section is-medium has-img-background'>
-                <div id='contact-container' className='container has-white-background'>
+        return (
+            <section
+                id='contact'
+                name='contact-us'
+                className='section is-medium has-img-background'
+            >
+                <div
+                    id='contact-container'
+                    className='container has-white-background'
+                >
                     <div className='columns'>
                         <div className='column'>
-                            <h2 className='title is-2'>Låt oss hjälpa er till en bättre image online!</h2>
-                            <p>Kontakta oss istället? Mail: exempel@mail.com</p>
+                            <h2 className='title is-2'>
+                                Låt oss hjälpa er till en bättre image online!
+                            </h2>
+                            <p>
+                                Kontakta oss istället? E-post:
+                                hej@digitalframgang.com
+                            </p>
                         </div>
 
                         <div className='column'>
@@ -124,18 +141,22 @@ class Contact extends React.Component {
                                 </div>
                             </div>
                             <div className='field has-text-centered'>
-                                <div className="columns">
-                                    <div className="column">
+                                <div className='columns'>
+                                    <div className='column'>
                                         <div className='control'>
-                                            <button className={'button is-link' + (this.state.isLoading ? 'is-loading': '')}
+                                            <button
+                                                className={
+                                                    'button is-link' +
+                                                    (this.state.isLoading
+                                                        ? 'is-loading'
+                                                        : '')
+                                                }
                                                 onClick={this.sendForm}
                                                 >Skicka</button>
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    {statusText}
-                                </div>
+                                <div>{statusText}</div>
                             </div>
                         </div>
                     </div>
