@@ -17,7 +17,7 @@ const Why = () => (
                 besökare till kunder erbjuder vi en helhetslösning för er som
                 vill öka er försäljning genom en förbättrad digital närvaro.
                 Vill ni också öka er försäljning? Kontakta oss/Bli kontaktad så
-                berättar vi vad vi kan göra för er
+                berättar vi vad vi kan göra för er.
             </p>
             <p>
                 Med fokus på effektiva insatser kombinerat med flera års

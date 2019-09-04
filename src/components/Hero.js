@@ -6,10 +6,8 @@ const Hero = () => (
         <div className='hero-body'>
             <div className='container has-text-centered'>
                 <h1 id='hero-title' className='title is-1 is-white'>Digital Framgång</h1>
-                <h2 className='subtitle is-2 is-white large-spacing'>
+                <h2 id='hero-subtitle1' className='subtitle is-2 is-white large-spacing'>
                     Vi hjälper er att förbättra er digitala
-                </h2>
-                <h2 className='subtitle is-2 is-white large-spacing'>
                     närvaro och öka er
                     försäljning
                 </h2>

@@ -2,13 +2,30 @@
     background-image: url('./assets/hero-image.jpg');
     background-size: cover;
 }
-
+#hero-subtitle{
+    margin-bottom: 3em;
+}
 #hero-title {
-    margin-bottom: 2em;
+    margin-bottom: 2.1em;
     font-size: 60px;
 }
 
 
 #hero-button {
     display: block;
+}
+
+@media only screen and (max-width: 1050px) {
+    .hero {
+        .subtitle{
+            font-size: 1.3em;
+        }
+        #hero-subtitle{
+            margin-bottom: 0px;
+        }
+        #hero-title {
+            font-size: 2.2em;
+        }
+    }
+
 }

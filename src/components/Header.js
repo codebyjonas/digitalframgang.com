@@ -28,7 +28,7 @@ class Header extends React.Component {
 
     listenScrollEvent = e => {
         if (!this.state.showMobileMenu) {
-            if (window.scrollY > 740) {
+            if (window.scrollY > 660) {
                 this.setState({ navbarScrollState: 'is-primary' })
             } else {
                 this.setState({ navbarScrollState: 'navbar-transparent' })

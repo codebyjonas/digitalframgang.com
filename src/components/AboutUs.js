@@ -35,7 +35,6 @@ const AboutUs = () => (
                 deras konverteringsgrad stärker vi våra kunders konkurrenskraft
                 på internet.
             </p>
-            <br/>
             <p>
                 Med fokus på effektiva punktinsatser kombinerat med flera års
                 arbetslivserfarenhet av webbutveckling och ett nytänk kring
