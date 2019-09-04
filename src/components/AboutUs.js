@@ -35,6 +35,7 @@ const AboutUs = () => (
                 deras konverteringsgrad stärker vi våra kunders konkurrenskraft
                 på internet.
             </p>
+            <p></p>
             <p>
                 Med fokus på effektiva punktinsatser kombinerat med flera års
                 arbetslivserfarenhet av webbutveckling och ett nytänk kring
@@ -46,7 +47,10 @@ const AboutUs = () => (
                 <div className='columns'>
                     {members.map(member => (
                         <div className='column has-text-centered'>
-                            <figure id="profile-image" className='image is-square'>
+                            <figure
+                                id='profile-image'
+                                className='image is-square'
+                            >
                                 <img
                                     className='is-rounded'
                                     src={require(`../assets/${member.id}.jpg`)}
