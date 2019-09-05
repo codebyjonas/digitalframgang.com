@@ -122,7 +122,7 @@ class Contact extends React.Component {
                                     <input
                                         className='input'
                                         type='email'
-                                        placeholder='your@email.com'
+                                        placeholder='din@email.com'
                                         value={this.state.formMail}
                                         onChange={this.formMailUpdate}
                                     />

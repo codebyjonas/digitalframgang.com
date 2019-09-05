@@ -59,7 +59,7 @@ const Services = () => (
                     </div>
                     <p>
                         Vi nöjer oss inte med att enbart locka fler besökare till er hemsida
-                         - Vi hjälper er även att konvertera dessa besökare till kunder
+                         , vi hjälper er även att konvertera dessa besökare till kunder
                     </p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const Services = () => (
                           vi på att leverera högeffektiva lösningar utan
                            att krångla till det. Sanningen är att man når
                             väldigt goda resultat med en relativt låg
-                        insats - Förutsatt att man fokuserar på rätt saker
+                        insats, förutsatt att man fokuserar på rätt saker
                     </p>
                 </div>
                 <div className='column card-shadow'>

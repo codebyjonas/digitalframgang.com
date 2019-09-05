@@ -56,7 +56,9 @@ $footer-padding: 12rem;
 }
 
 .navbar-item {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 2px;
 }
 // Setting colors for titles
 .has-blue-sidebar {
@@ -152,6 +154,11 @@ p {
     box-shadow: -1px 10px 16px 1px #d3d3d3;
 }
 
+.profile-image-jobname {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
 @media only screen and (max-width: 768px) {
     .card-shadow{
         padding: 1rem;
@@ -170,6 +177,7 @@ p {
     .title.is-3{
         font-size: 1.6em;
     }
+
 
     #contact{
         padding-left: 0px;

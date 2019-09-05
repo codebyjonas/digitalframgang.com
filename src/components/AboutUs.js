@@ -57,7 +57,7 @@ const AboutUs = () => (
                                 />
                             </figure>
                             <h3 className='title is-5'>{member.name}</h3>
-                            <h4 className='title is-6'>{member.role}</h4>
+                            <h4 className='title is-6 profile-image-jobname'>{member.role}</h4>
                         </div>
                     ))}
                 </div>
