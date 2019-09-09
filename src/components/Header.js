@@ -60,9 +60,11 @@ class Header extends React.Component {
                 aria-label='main navigation'
             >
                 <div className='navbar-brand'>
-                    <figure className='image is-48x48'>
-                        <img src={Logo} alt='Digital Framgång'></img>
-                    </figure>
+                    <Link to='hero' smooth={true} duration={500}>
+                        <figure className='image is-48x48'>
+                            <img src={Logo} alt='Digital Framgång'></img>
+                        </figure>
+                    </Link>
                     <a
                         role='button'
                         className='navbar-burger'
