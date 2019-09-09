@@ -71,7 +71,7 @@ class Contact extends React.Component {
     render() {
         let statusText
 
-        if (this.state.status != '') {
+        if (this.state.status !== '') {
             statusText = (
                 <div class='notification is-info'>
                     <p>{this.state.status}</p>
