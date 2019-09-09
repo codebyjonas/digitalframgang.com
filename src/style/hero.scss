@@ -3,7 +3,7 @@
     background-size: cover;
 }
 #hero-subtitle{
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     font-size: 2.3em;
 }
 #hero-title {
@@ -12,21 +12,44 @@
 }
 
 
-#hero-button {
+#hero-buttons {
     display: block;
 
+
     a {
-        padding-left: 30px;
-        padding-right: 30px;
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding: 1.5rem;
+        border-radius: 50px;
+        min-width: 200px;
+        margin: 20px 20px 0 20px;
+    }
+
+    #tell-me-more-button {
+        background-color: transparent;
+        border: 1px solid white;
+    }
+    #tell-me-more-button:hover {
+        background-color: transparent;
+        border: 1px solid  $orange;
+        transition-timing-function: linear;
+        transition-duration: 0.08s;
+        color: $orange
+    }
+    #contact-us-button{
+        border: 1px solid $orange
+    }
+
+    #contact-us-button:hover {
+        background-color: transparent;
+        border: 1px solid  $orange;
+        transition-timing-function: linear;
+        transition-duration: 0.08s;
+        color: $orange
     }
 }
 
-#hero-button a:hover {
-    background-color: transparent;
-    border: 1px solid  white;
-    transition-timing-function: linear;
-    transition-duration: 0.08s;
-}
+
 
 
 @media only screen and (max-width: 1050px) {

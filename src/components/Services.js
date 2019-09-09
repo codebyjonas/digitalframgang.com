@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     MdAssessment,
-    MdSwapHoriz,
+    MdSearch,
     MdLoop,
     MdAttachMoney
 } from 'react-icons/md'
@@ -34,7 +34,7 @@ const Services = () => (
                     <div className='columns is-vcentered'>
                         <div className='column is-1 is-paddingless'>
                             <span class='icon has-orange-light is-size-2 is-flex'>
-                                <MdSwapHoriz />
+                                <MdSearch />
                             </span>
                         </div>
                         <div className='column'>

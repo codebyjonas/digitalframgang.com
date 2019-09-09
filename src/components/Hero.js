@@ -11,8 +11,16 @@ const Hero = () => (
                     närvaro och öka er
                     försäljning
                 </h2>
-                <div id='hero-button' className='buttons'>
-                    <Link className='button is-link is-large'
+                <div id='hero-buttons' className='buttons'>
+                    <Link id="tell-me-more-button" className='button is-link is-large'
+                        to="services"
+                        smooth={true}
+                        duration={500}
+                        activeClass='is-active'
+                        spy={true}>
+                        Läs mer
+                    </Link>
+                    <Link id="contact-us-button" className='button is-link is-large'
                         to="contact-us"
                         smooth={true}
                         duration={500}

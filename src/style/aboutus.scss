@@ -1,0 +1,29 @@
+#profile-image {
+    margin-bottom: 1.5rem;
+}
+#profile-image img {
+    box-shadow: -1px 10px 16px 1px #d3d3d3;
+}
+
+.profile-image-jobname {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+
+
+@media screen and (min-width: 1024px){
+
+    #about-us {
+        .container{
+            max-width: 1060px;
+        }
+        #profile-image img {
+            height: 85%;
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
