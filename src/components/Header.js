@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link} from 'react-scroll'
+import { Link } from 'react-scroll'
+import Logo from '../assets/main-logo.png'
 
 const links = [
     {
@@ -50,6 +51,8 @@ class Header extends React.Component {
     render() {
         return (
             <nav
+                id='header'
+                name='header'
                 className={
                     'navbar is-fixed-top ' + this.state.navbarScrollState
                 }
@@ -57,7 +60,9 @@ class Header extends React.Component {
                 aria-label='main navigation'
             >
                 <div className='navbar-brand'>
-                    <h1 className='navbar-item'>Digital Framgång</h1>
+                    <figure className='image is-48x48'>
+                        <img src={Logo} alt='Digital Framgång'></img>
+                    </figure>
                     <a
                         role='button'
                         className='navbar-burger'
@@ -78,6 +83,7 @@ class Header extends React.Component {
                 >
                     {links.map(link => (
                         <Link
+                            key={link.link}
                             className='navbar-item'
                             to={link.link}
                             smooth={true}

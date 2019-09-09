@@ -48,6 +48,7 @@ $footer-padding: 12rem;
 @import './style/services';
 @import './style/contact';
 @import './style/aboutus';
+@import './style/header';
 
 // Setting font
 .title,
@@ -87,7 +88,7 @@ $footer-padding: 12rem;
 .card-shadow {
     background-color: #f5f5f5;
     box-shadow: 0px 20px 20px #ebecef;
-    border-bottom: 4px solid #add8e6;;
+    border-bottom: 4px solid #add8e6;
     margin: 10px;
     margin-bottom: 25px;
     padding: 2rem;
@@ -149,9 +150,8 @@ p {
     margin-bottom: 1em;
 }
 
-
 @media only screen and (max-width: 768px) {
-    .card-shadow{
+    .card-shadow {
         padding: 1rem;
         box-shadow: 0px 12px 15px #ebecef;
     }
@@ -165,19 +165,15 @@ p {
     .title.is-2 {
         font-size: 1.9em;
     }
-    .title.is-3{
+    .title.is-3 {
         font-size: 1.6em;
     }
 
-
-    #contact{
+    #contact {
         padding-left: 0px;
         padding-right: 0px;
     }
-
-
 }
-
 
 @media only screen and (max-width: 450px) {
     #profile-image {
