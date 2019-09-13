@@ -1,25 +1,43 @@
 import React from 'react'
+import {
+    MdPhone,
+    MdEmail,
+    MdWork
+} from 'react-icons/md'
+import { FaMail } from 'react-icons/fa'
 
 const members = [
     {
         id: 'oskarberggren',
         name: 'Oskar Berggren',
-        role: 'Konsult'
+        role: 'Konsult',
+        responsibility: "content och sälj",
+        tel: "073 784 19 90",
+        mail: "jesperhedlund@digitalframgang.se"
     },
     {
         id: 'jesperhedlund',
         name: 'Jesper Hedlund',
-        role: 'Konsult'
+        role: 'Konsult',
+        responsibility: "Utveckling",
+        tel: "073 784 19 90",
+        mail: "jesperhedlund@digitalframgang.se"
     },
     {
         id: 'nilsjonsson',
         name: 'Nils Jonsson',
-        role: 'Konsult'
+        role: 'Konsult',
+        responsibility: "content och sälj",
+        tel: "073 784 19 90",
+        mail: "jesperhedlund@digitalframgang.se"
     },
     {
         id: 'jonasolaussen',
         name: 'Jonas Olaussen',
-        role: 'VD & Konsult'
+        role: 'VD & Konsult',
+        responsibility: "Utveckling",
+        tel: "073 784 19 90",
+        mail: "jesperhedlund@digitalframgang.se"
     }
 ]
 
@@ -43,7 +61,7 @@ const AboutUs = () => (
                 alternativ till de mer traditionella webbyråerna. Kontakta oss
                 idag för att öka ditt företags försäljning!
             </p>
-            <section className='section'>
+            <section id="aboutus-pictures"className='section'>
                 <div className='columns'>
                     {members.map(member => (
                         <div
@@ -59,6 +77,11 @@ const AboutUs = () => (
                                     src={require(`../assets/${member.id}.jpg`)}
                                     alt={member.name}
                                 />
+                            <div className="overlay">
+                                <h1 className="title is-6"><MdWork/>{member.responsibility}</h1>
+                                <h1 className="title is-6"><MdPhone/>{member.tel}</h1>
+                                <h1 className="title is-6"><MdEmail/>{member.mail}</h1>
+                            </div>
                             </figure>
                             <h3 className='title is-5'>{member.name}</h3>
                             <h4 className='title is-6 profile-image-jobname'>

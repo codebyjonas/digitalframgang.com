@@ -97,8 +97,10 @@ class Contact extends React.Component {
                                 Låt oss hjälpa er till en bättre image online!
                             </h2>
                             <p>
-                                Kontakta oss istället? E-post:
-                                hej@digitalframgang.com
+                                Kontakta oss istället?
+                            </p>
+                            <p>
+                                E-post: hej@digitalframgang.com
                             </p>
                         </div>
 

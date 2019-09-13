@@ -57,6 +57,7 @@ $button-padding-horizontal: 1.5rem;
 @import './style/contact';
 @import './style/aboutus';
 @import './style/header';
+@import './style/why'
 
 // Setting font
 .title,
@@ -94,8 +95,8 @@ $button-padding-horizontal: 1.5rem;
 }
 
 .card-shadow {
-    background-color: #f5f5f5;
-    box-shadow: 0px 20px 20px #ebecef;
+    background-color: white;
+    box-shadow: 0px 20px 20px #cfcfcf;
     border-bottom: 4px solid #add8e6;
     margin: 10px;
     margin-bottom: 25px;
@@ -104,7 +105,7 @@ $button-padding-horizontal: 1.5rem;
 }
 
 .why-section {
-    background-color: #f3f3f3dd;
+    background-color: white;
 }
 
 .input {
