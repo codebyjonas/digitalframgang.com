@@ -1,0 +1,78 @@
+.why-section {
+    background: #efefef; /* Old browsers */
+    background: -moz-linear-gradient(top,  #efefef 0%, #efefef 49%, #ffffff 50%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #efefef 0%,#efefef 49%,#ffffff 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #efefef 0%,#efefef 49%,#ffffff 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+@media screen and (min-width: 1024px){
+    .section.why-section{
+        padding: 5rem 1.5rem 0rem 1.5rem;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+.rotated-background-block{
+    position: absolute;
+    z-index: 1;
+    width: 200%;
+    height: 80%;
+    background: #FFFFFF;
+    transform: rotate(6deg);
+    left: -50%;
+    top: -50px;
+}
+
+#why-text-container{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 100%;
+}
+
+#why-text{
+    position: relative;
+    z-index: 3;
+    margin-left: 0;
+    margin-right: 4rem;
+}
+
+#why-us-image {
+    z-index: 5;
+    opacity: 0.6;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap; /* This is required unless you put the helper span closely near the img */
+    text-align: center;
+
+    img {
+        width: 70%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+
+    }
+
+}
+
+
+@media screen and (max-width: 720px){
+    .why-section{
+        background: white;
+        padding: 1.5rem;
+    }
+
+    .rotated-background-block{
+        display: none;
+    }
+
+    #why-text{
+        margin-right: 0;
+    }
+    #why-text-container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}

@@ -1,0 +1,35 @@
+#subhero{
+    background: linear-gradient(150deg, rgba(3,48,45,1) 11%, rgba(4,61,56,1) 37%, rgba(70,65,25,0.9968137767802433) 68%, rgba(6,48,45,1) 79%, rgba(6,48,45,1) 90%);
+    z-index: 0;
+    position: relative;
+
+}
+
+
+#subhero-block-1 {
+    position: absolute;
+    z-index: -2;
+    width: 200%;
+    height: 200%;
+    background: #FFFFFF;
+    transform: rotate(-6deg);
+    left: -50%;
+    top: 291px;
+}
+#subhero-block-2{
+    position: absolute;
+    z-index: -2;
+    width: 200%;
+    height: 200%;
+    background: #FFFFFF;
+    transform: rotate(6deg);
+    left: -50%;
+    top: -390px;
+}
+
+@media screen and (max-width: 720px){
+    #subhero-block-1,
+    #subhero-block-2 {
+        display: none;
+    }
+}

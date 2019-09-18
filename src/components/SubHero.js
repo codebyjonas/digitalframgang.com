@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll'
 
 const SubHero = () => (
-    <section className='hero is-info is-medium'>
+    <section id="subhero" className='hero is-info is-large'>
         <div className='hero-body'>
             <div className='container'>
                 <h1 className='title is-3'>Vill du höra mer?</h1>
@@ -20,6 +20,8 @@ const SubHero = () => (
                         </Link>
                     </div>
                 </div>
+                <div id="subhero-block-1"></div>
+                <div id="subhero-block-2"></div>
             </div>
         </div>
     </section>

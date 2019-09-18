@@ -79,14 +79,14 @@ const AboutUs = () => (
                                 />
                             <div className="overlay">
                                 <h1 className="title is-6"><MdWork/>{member.responsibility}</h1>
-                                <h1 className="title is-6"><MdPhone/>{member.tel}</h1>
-                                <h1 className="title is-6"><MdEmail/>{member.mail}</h1>
                             </div>
                             </figure>
                             <h3 className='title is-5'>{member.name}</h3>
                             <h4 className='title is-6 profile-image-jobname'>
                                 {member.role}
                             </h4>
+                            <h1 className="title is-6"><MdPhone/>{member.tel}</h1>
+                            <h1 className="title is-6"><MdEmail/>{member.mail}</h1>
                         </div>
                     ))}
                 </div>
