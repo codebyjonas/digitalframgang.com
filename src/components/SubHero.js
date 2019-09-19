@@ -20,10 +20,11 @@ const SubHero = () => (
                         </Link>
                     </div>
                 </div>
-                <div id="subhero-block-1"></div>
-                <div id="subhero-block-2"></div>
+
             </div>
         </div>
+        <div id="subhero-block-1"></div>
+        <div id="subhero-block-2"></div>
     </section>
 )
 

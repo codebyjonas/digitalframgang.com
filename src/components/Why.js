@@ -35,8 +35,9 @@ const Why = () => (
                     </figure>
                 </div>
             </div>
-            <div className="rotated-background-block"></div>
         </div>
+        <div id="rotated-background-triangle1"></div>
+        <div id="rotated-background-triangle2"></div>
     </section>
 )
 

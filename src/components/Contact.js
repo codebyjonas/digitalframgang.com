@@ -8,6 +8,8 @@ class Contact extends React.Component {
             formName: '',
             formMail: '',
             formMsg: '',
+            formTel: '',
+            formCompany: '',
             status: '',
             isLoading: false
         }
@@ -22,13 +24,21 @@ class Contact extends React.Component {
     formNameUpdate = event => {
         this.setState({ formName: event.target.value })
     }
+    formTelUpdate = event => {
+        this.setState({ formTel: event.target.value })
+    }
+    formCompanyUpdate = event => {
+        this.setState({ formCompany: event.target.value })
+    }
 
     sendForm = () => {
         this.setState({ isLoading: true })
         let template_params = {
             from_name: this.state.formName,
             from_email: this.state.formMail,
-            message: this.state.formMsg
+            message: this.state.formMsg,
+            tel: this.state.formTel,
+            company: this.state.formCompany
         }
 
         emailjs
@@ -63,6 +73,8 @@ class Contact extends React.Component {
             formMail: '',
             formName: '',
             formMsg: '',
+            formTel: '',
+            formCompany: '',
             status: '',
             isLoading: false
         })
@@ -105,29 +117,65 @@ class Contact extends React.Component {
                         </div>
 
                         <div className='column'>
-                            <div className='field'>
-                                <label className='label'>Namn</label>
-                                <div className='control'>
-                                    <input
-                                        className='input'
-                                        type='text'
-                                        placeholder='namn...'
-                                        value={this.state.formName}
-                                        onChange={this.formNameUpdate}
-                                    />
+                            <div className="columns">
+                                <div className="column">
+                                    <div className='field'>
+                                        <label className='label'>Namn</label>
+                                        <div className='control'>
+                                            <input
+                                                className='input'
+                                                type='text'
+                                                placeholder='namn...'
+                                                value={this.state.formName}
+                                                onChange={this.formNameUpdate}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column">
+                                    <div className='field'>
+                                        <label className='label'>Email</label>
+                                        <div className='control'>
+                                            <input
+                                                className='input'
+                                                type='email'
+                                                placeholder='din@email.com'
+                                                value={this.state.formMail}
+                                                onChange={this.formMailUpdate}
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div className='field'>
-                                <label className='label'>Email</label>
-                                <div className='control'>
-                                    <input
-                                        className='input'
-                                        type='email'
-                                        placeholder='din@email.com'
-                                        value={this.state.formMail}
-                                        onChange={this.formMailUpdate}
-                                    />
+                            <div className="columns">
+                                <div className="column">
+                                    <div className='field'>
+                                        <label className='label'>Telefon</label>
+                                        <div className='control'>
+                                            <input
+                                                className='input'
+                                                type='text'
+                                                placeholder='Telefonnummer'
+                                                value={this.state.formTel}
+                                                onChange={this.formTelUpdate}
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="column">
+                                    <div className='field'>
+                                        <label className='label'>Företag</label>
+                                        <div className='control'>
+                                            <input
+                                                className='input'
+                                                type='email'
+                                                placeholder='Företagsnamn'
+                                                value={this.state.formCompany}
+                                                onChange={this.formCompanyUpdate}
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
