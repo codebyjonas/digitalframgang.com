@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-scroll'
 import Logo from '../assets/main-logo.png'
 
+// Only for keep in Build / Jonas
+import Email from '../assets/email-signature-logo.png'
+
 const links = [
     {
         displayName: 'Våra tjänster',
