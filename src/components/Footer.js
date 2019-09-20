@@ -22,7 +22,9 @@ const Footer = () => (
                 </div>
             </div>
         </div>
-        {//Only for keep in build}
+        {
+            //Only for keep in build
+        }
         <img src={Email} alt='Digital Framgång' style='display:none;'></img>
     </footer>
 )
