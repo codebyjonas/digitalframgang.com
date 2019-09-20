@@ -25,7 +25,11 @@ const Footer = () => (
         {
             //Only for keep in build
         }
-        <img src={Email} alt='Digital Framgång' style='display:none;'></img>
+        <img
+            src={Email}
+            alt='Digital Framgång'
+            style={{ display: 'none' }}
+        ></img>
     </footer>
 )
 
