@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b17eb86b382d3a5f5870628c00b7b43",
+    "revision": "b4a94f643c335a331a9844a469a699e1",
     "url": "/index.html"
   },
   {
-    "revision": "50a0dd450e39e4bfbdc6",
-    "url": "/static/css/main.db187c06.chunk.css"
+    "revision": "8a14542a53acdcfb0e0a",
+    "url": "/static/css/main.83e9c537.chunk.css"
   },
   {
-    "revision": "7c54209feafcc6d8b772",
-    "url": "/static/js/2.f6f7e34f.chunk.js"
+    "revision": "7f9fd3a0270acae01542",
+    "url": "/static/js/2.8ebb3189.chunk.js"
   },
   {
-    "revision": "50a0dd450e39e4bfbdc6",
-    "url": "/static/js/main.1eff4a1f.chunk.js"
+    "revision": "8a14542a53acdcfb0e0a",
+    "url": "/static/js/main.1fbf3caa.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -42,5 +42,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "78c02144d8f509af85b96d81b7885270",
     "url": "/static/media/oskarberggren.78c02144.jpg"
+  },
+  {
+    "revision": "192189e71393f1bd97546027763b98d0",
+    "url": "/static/media/whyuswithshadow.192189e7.jpg"
   }
 ]);
