@@ -3,3 +3,18 @@
         padding: 0.5rem;
     }
 }
+.navbar-item {
+    border-bottom: 2px solid transparent;
+    transition: all 500ms;
+    &:hover,
+    &.is-active {
+        border-bottom: 2px solid $orange;
+    }
+}
+.navbar-transparent {
+    .navbar-item {
+        &:hover {
+            background: transparent;
+        }
+    }
+}
