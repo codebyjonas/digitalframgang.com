@@ -1,5 +1,8 @@
 import React from 'react'
 
+// Only for keep in Build / Jonas
+import Email from '../assets/email-signature-logo.png'
+
 const Footer = () => (
     <footer className='section is-small'>
         <div className='content has-text-centered'>
@@ -19,6 +22,14 @@ const Footer = () => (
                 </div>
             </div>
         </div>
+        {
+            //Only for keep in build
+        }
+        <img
+            src={Email}
+            alt='Digital Framgång'
+            style={{ display: 'none' }}
+        ></img>
     </footer>
 )
 
