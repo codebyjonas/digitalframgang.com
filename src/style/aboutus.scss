@@ -12,7 +12,9 @@
 #profile-image img {
     box-shadow: -1px 10px 16px 1px #d3d3d3;
 }
-
+#profile-image-name{
+    font-size: 1.45rem;
+}
 
 .profile-image-jobname {
     font-size: 1.2rem;
@@ -20,36 +22,76 @@
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .8s ease;
-  border-radius: 20px;
-  background-color: #add8e6;
-  text-align: left;
-  padding: 20px;
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .8s ease;
+    border-radius: 20px;
+    background-color: #add8e6;
+    text-align: left;
+    padding: 20px;
 
-  p{
-      color: $green;
-  }
+    p{
+    color: $green;
+    }
 }
 
 #profile-contact-info{
     text-align: left;
 }
 
+#phone-icon{
+    svg{
+        margin: 0px 5px -5px 5px;
+        padding-top: 5px;
+
+    }
+}
+
+#email-copy{
+    cursor: pointer;
+
+}
+#email-icon{
+    height: 3rem;
+    width: 3rem;
+    background-color: #bfe1ec;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    transition: width 0.2s, height 0.2s;
+
+}
+#email-copy:hover{
+
+    #email-icon{
+        color: white;
+        height: 3.2rem;
+        width: 3.2rem;
+    }
+}
+#copy-confirmation{
+    strong{
+
+        color: #137e76;
+        font-size: 1.2rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+    }
+
+}
 
 
 @media screen and (min-width: 1024px){
 
     #about-us {
         .container{
-            max-width: 1060px;
+            max-width: 1160px;
         }
         #profile-image img {
             height: 85%;
