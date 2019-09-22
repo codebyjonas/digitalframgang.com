@@ -33,7 +33,7 @@ const Services = () => (
                 <div className='column card-shadow'>
                     <div className='columns is-vcentered'>
                         <div className='column is-1 is-paddingless'>
-                            <span class='icon has-orange-light is-size-2 is-flex'>
+                            <span className='icon has-orange-light is-size-2 is-flex'>
                                 <MdSearch />
                             </span>
                         </div>

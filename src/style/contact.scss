@@ -1,11 +1,11 @@
 #contact-container {
     padding: 2.5rem;
-    background-color: #add8e6;
+    background-color: white;
 
     .input,
     .textarea{
-        background-color: #add8e6;
-        border-bottom: 2px solid white;
+        background-color: white;
+        border-bottom: 3px solid #add8e6;
         outline: none;
     }
 
@@ -17,6 +17,6 @@
 
 
     p{
-        color: white;
+        color: #7d7d7d;
     }
 }
