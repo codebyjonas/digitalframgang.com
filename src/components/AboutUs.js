@@ -8,7 +8,7 @@ const members = [
         name: 'Oskar Berggren',
         role: 'Konsult',
         responsibility: 'content och sälj',
-        tel: '073 784 19 90',
+        tel: '073 907 09 94',
         mail: 'oskar.berggren@digitalframgang.se'
     },
     {
@@ -24,7 +24,7 @@ const members = [
         name: 'Nils Jonsson',
         role: 'Konsult',
         responsibility: 'content och sälj',
-        tel: '073 784 19 90',
+        tel: '070 311 11 09',
         mail: 'nils.jonsson@digitalframgang.se'
     },
     {
@@ -32,7 +32,7 @@ const members = [
         name: 'Jonas Olaussen',
         role: 'VD & Konsult',
         responsibility: 'Utveckling',
-        tel: '073 784 19 90',
+        tel: '073 896 92 09',
         mail: 'jonas.olaussen@digitalframgang.se'
     }
 ]
