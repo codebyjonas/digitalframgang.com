@@ -1,10 +1,8 @@
 #contact-container {
     padding: 2.5rem;
-    background-color: #add8e6;
 
     .input,
-    .textarea{
-        background-color: #add8e6;
+    .textarea {
         border-bottom: 2px solid white;
         outline: none;
     }
@@ -13,10 +11,5 @@
     .textarea:focus {
         border: none;
         background-color: #d1ecf5;
-    }
-
-
-    p{
-        color: white;
     }
 }
