@@ -1,16 +1,11 @@
 import React from 'react'
-import {
-    MdAssessment,
-    MdSearch,
-    MdLoop,
-    MdAttachMoney
-} from 'react-icons/md'
+import { MdAssessment, MdSearch, MdLoop, MdAttachMoney } from 'react-icons/md'
 import { FaMailBulk } from 'react-icons/fa'
 
 const Services = () => (
     <section id='services' name='services' className='section is-medium'>
         <div className='container is-fluid'>
-            <h1 className='title is-2 has-blue-sidebar'>Vårt erbjudande</h1>
+            <h1 className='title is-1 has-blue-sidebar'>Vårt erbjudande</h1>
             <div className='columns'>
                 <div className='column card-shadow'>
                     <div className='columns is-vcentered'>
@@ -25,8 +20,9 @@ const Services = () => (
                     </div>
                     <div>
                         <p>
-                            För att garantera träffsäkerheten i våra åtgärder ser vi till att
-                            erhålla en tydlig bild av både ert företag och era målkunder
+                            För att garantera träffsäkerheten i våra åtgärder
+                            ser vi till att erhålla en tydlig bild av både ert
+                            företag och era målkunder
                         </p>
                     </div>
                 </div>
@@ -42,8 +38,9 @@ const Services = () => (
                         </div>
                     </div>
                     <p>
-                        Genom effektiva punktinsatser gör vi er hemsida synlig - Så att potentiella kunder
-                        hittar till er istället för till konkurrenterna
+                        Genom effektiva punktinsatser gör vi er hemsida synlig -
+                        Så att potentiella kunder hittar till er istället för
+                        till konkurrenterna
                     </p>
                 </div>
                 <div className='column card-shadow'>
@@ -58,8 +55,9 @@ const Services = () => (
                         </div>
                     </div>
                     <p>
-                        Vi nöjer oss inte med att enbart locka fler besökare till er hemsida
-                         , vi hjälper er även att konvertera dessa besökare till kunder
+                        Vi nöjer oss inte med att enbart locka fler besökare
+                        till er hemsida , vi hjälper er även att konvertera
+                        dessa besökare till kunder
                     </p>
                 </div>
             </div>
@@ -77,11 +75,11 @@ const Services = () => (
                     </div>
                     <p>
                         Vi vill att synlighet och konvertering ska vara
-                         tillgängligt för alla företag. Därför fokuserar
-                          vi på att leverera högeffektiva lösningar utan
-                           att krångla till det. Sanningen är att man når
-                            väldigt goda resultat med en relativt låg
-                        insats, förutsatt att man fokuserar på rätt saker
+                        tillgängligt för alla företag. Därför fokuserar vi på
+                        att leverera högeffektiva lösningar utan att krångla
+                        till det. Sanningen är att man når väldigt goda resultat
+                        med en relativt låg insats, förutsatt att man fokuserar
+                        på rätt saker
                     </p>
                 </div>
                 <div className='column card-shadow'>
@@ -96,12 +94,11 @@ const Services = () => (
                         </div>
                     </div>
                     <p>
-                        Vi håller vad vi lovar och därför är vi
-                        noggranna i vår uppföljning. För att ni
-                        kontinuerligt ska kunna följa upp och
-                        förbättra upp er digitala närvaro
-                        inkluderar vi även ett användarvänligt
-                        uppföljningsverktyg - Helt utan extra kostnad
+                        Vi håller vad vi lovar och därför är vi noggranna i vår
+                        uppföljning. För att ni kontinuerligt ska kunna följa
+                        upp och förbättra upp er digitala närvaro inkluderar vi
+                        även ett användarvänligt uppföljningsverktyg - Helt utan
+                        extra kostnad
                     </p>
                 </div>
             </div>

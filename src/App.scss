@@ -51,7 +51,6 @@ $button-padding-horizontal: 1.5rem;
 @import '../node_modules/bulma/sass/form/_all.sass';
 @import '../node_modules/bulma/sass/elements/_all.sass';
 
-
 //importing other style files
 @import './style/hero';
 @import './style/services';
@@ -73,6 +72,12 @@ $button-padding-horizontal: 1.5rem;
     text-transform: uppercase;
     margin: 2px;
 }
+
+// Titles
+.title.is-1 {
+    margin: 1em 0;
+}
+
 // Setting colors for titles
 .has-blue-sidebar {
     border-left: 3px solid lightblue;
@@ -104,8 +109,6 @@ $button-padding-horizontal: 1.5rem;
     padding: 2rem;
     position: relative;
 }
-
-
 
 .input {
     background-color: #dddcdc;
@@ -157,8 +160,6 @@ $button-padding-horizontal: 1.5rem;
 p {
     margin-bottom: 1em;
 }
-
-
 
 @media only screen and (max-width: 768px) {
     .card-shadow {
