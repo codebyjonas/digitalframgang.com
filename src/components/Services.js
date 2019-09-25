@@ -5,7 +5,9 @@ import { FaMailBulk } from 'react-icons/fa'
 const Services = () => (
     <section id='services' name='services' className='section is-medium'>
         <div className='container is-fluid'>
-            <h1 className='title is-1 has-blue-sidebar'>Vårt erbjudande</h1>
+            <h2 className='title is-1 has-blue-sidebar'>
+                Vår metod för en optimerad hemsida
+            </h2>
             <div className='columns'>
                 <div className='column card-shadow'>
                     <div className='columns is-vcentered'>
@@ -70,7 +72,7 @@ const Services = () => (
                             </span>
                         </div>
                         <div className='column'>
-                            <h2 className='title is-3'>Resurseffektivitet</h2>
+                            <h2 className='title is-3'>Kostnadseffektivt</h2>
                         </div>
                     </div>
                     <p>

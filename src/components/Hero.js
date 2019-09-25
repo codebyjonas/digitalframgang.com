@@ -12,8 +12,8 @@ const Hero = () => (
                     id='hero-subtitle'
                     className='subtitle is-2 is-white large-spacing'
                 >
-                    Vi hjälper er att förbättra er digitala närvaro och öka er
-                    försäljning
+                    Vi utvecklar hemsidor som förbättrar er digitala närvaro och
+                    öka er försäljning
                 </h2>
                 <div id='hero-buttons' className='buttons'>
                     <Link
