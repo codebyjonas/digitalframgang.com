@@ -95,7 +95,10 @@ class AboutUs extends React.Component {
                                                 <img
                                                     className='is-rounded'
                                                     src={require(`../assets/${member.id}.jpg`)}
-                                                    alt={member.name}
+                                                    alt={
+                                                        'Digital Framgångs medlem ' +
+                                                        member.name
+                                                    }
                                                 />
                                             </figure>
                                         </div>
