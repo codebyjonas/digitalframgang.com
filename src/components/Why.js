@@ -6,19 +6,19 @@ const whyyUsTop3 = [
         icon: <MdAttachMoney />,
         title: 'Kostnadseffektiva',
         copy:
-            'Tack vare våra kostnadseffektiva metoder kan vi erbjuda ett lågt pris och fortfarande leverera en högkvalitativ tjänst.'
+            'Tack vare våra kostnadseffektiva metoder kan vi erbjuda marknadens bästa priser utan att kompromissa på kvalitet.'
     },
     {
         icon: <MdTrackChanges />,
         title: 'Helhetslösning',
         copy:
-            'Vi hjälper er från a till b så att ni kan fokusera på er kärnverksamhet. Ni väljer själva  hur inolverade ni vill vara.'
+            'Vi hjälper er från vision till en framgångsrik hemsida. Vi förstår att ni har en verksamhet att driva, varför det är helt upp till er hur involverade ni vill vara i processen.'
     },
     {
         icon: <MdHistory />,
         title: 'Lång erfarenheter',
         copy:
-            'Mellan oss har vi flera års erfarenhet av både marknadsanalys och webbutveckling, därför kan vi garantera en optimerad hemsida.'
+            'Vårt team har flera års erfarenhet av både marknadsanalys och webbutveckling, därför kan vi garantera en hemsida som kunder enkelt kan hitta och som även främjar försäljning.'
     }
 ]
 
