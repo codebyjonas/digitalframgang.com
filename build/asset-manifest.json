@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95bfe8d4.chunk.css",
+    "main.js": "/static/js/main.be78400c.chunk.js",
+    "main.js.map": "/static/js/main.be78400c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.264f455d.chunk.js": "/static/js/2.264f455d.chunk.js",
+    "static/js/2.264f455d.chunk.js.map": "/static/js/2.264f455d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e65c97e1e67b73afeb3e953c8105e12a.js": "/precache-manifest.e65c97e1e67b73afeb3e953c8105e12a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.95bfe8d4.chunk.css.map": "/static/css/main.95bfe8d4.chunk.css.map",
+    "static/media/App.scss": "/static/media/hero-image.2362f86e.jpg",
+    "static/media/jesperhedlund.jpg": "/static/media/jesperhedlund.652aacbb.jpg",
+    "static/media/jonasolaussen.jpg": "/static/media/jonasolaussen.93f13ff5.jpg",
+    "static/media/nilsjonsson.jpg": "/static/media/nilsjonsson.49a90391.jpg",
+    "static/media/oskarberggren.jpg": "/static/media/oskarberggren.d5735069.jpg",
+    "static/media/whyuswithshadow.jpg": "/static/media/whyuswithshadow.0169bc2a.jpg"
+  }
+}
