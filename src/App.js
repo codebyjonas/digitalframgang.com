@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs'
 import './App.scss'
 import Footer from './components/Footer'
 import SubHero from './components/SubHero'
+import Whatwedo from './components/Whatwedo'
 import Contact from './components/Contact'
 
 const App = () => (
@@ -16,6 +17,7 @@ const App = () => (
         <Services />
         <Why />
         <SubHero />
+        <Whatwedo/>
         <AboutUs />
         <Contact />
         <Footer />
