@@ -16,7 +16,7 @@ const whyyUsTop3 = [
     },
     {
         icon: <MdHistory />,
-        title: 'Lång erfarenheter',
+        title: 'Lång erfarenhet',
         copy:
             'Vårt team har flera års erfarenhet av både marknadsanalys och webbutveckling, därför kan vi garantera en hemsida som kunder enkelt kan hitta och som även främjar försäljning.'
     }
