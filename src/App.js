@@ -8,6 +8,7 @@ import './App.scss'
 import Footer from './components/Footer'
 import SubHero from './components/SubHero'
 import Contact from './components/Contact'
+import PriceInfo from './components/PriceInfo'
 
 const App = () => (
     <>
@@ -17,6 +18,7 @@ const App = () => (
         <Why />
         <SubHero />
         <AboutUs />
+        <PriceInfo></PriceInfo>
         <Contact />
         <Footer />
     </>

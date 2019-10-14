@@ -59,6 +59,7 @@ $button-padding-horizontal: 1.5rem;
 @import './style/header';
 @import './style/why';
 @import './style/subhero';
+@import './style/price-info';
 
 // Setting font
 .title,
@@ -98,6 +99,10 @@ $button-padding-horizontal: 1.5rem;
 }
 .has-orange-light {
     color: $orange-light;
+}
+
+.has-primary {
+    color: $primary;
 }
 
 .card-shadow {
