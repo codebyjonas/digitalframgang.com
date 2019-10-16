@@ -28,7 +28,7 @@ const Why = () => (
         name='why-us'
         className='section is-medium why-section'
     >
-        <div id='why-text-container' className='container'>
+        <div id='why-text-container' className='container is-fluid'>
             <div className='columns is-8 is-variable is-desktop'>
                 <div className='column'>
                     <h2 className='title is-1 has-blue-sidebar'>
