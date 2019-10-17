@@ -38,6 +38,11 @@ $gap: 180px;
 $control-radius: 1000000px;
 $button-padding-horizontal: 1.5rem;
 
+.button.is-transparent {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 // Own vars
 $border-radius: 3px;
 

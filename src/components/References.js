@@ -22,9 +22,15 @@ const References = () => (
     >
         <div className='container is-fluid'>
             <h2 className='title is-1 has-blue-sidebar'>Våra kundcase</h2>
-            {references.map(reference => (
-                <Reference reference={reference}></Reference>
-            ))}
+            <div className='columns'>
+                {references.map(reference => (
+                    <div className='column'>
+                        <Reference reference={reference}></Reference>
+                    </div>
+                ))}
+                <div className='column'></div>
+                <div className='column'></div>
+            </div>
         </div>
         <SkewedDivider color='#fff' direction='left' />
     </section>
