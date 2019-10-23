@@ -12,6 +12,11 @@ footer {
             margin: 0.5rem 0;
             padding: 0.5rem;
             border-right: 2px solid $orange;
+            transition: color 500ms;
+
+            &:hover {
+                color: white;
+            }
 
             &:last-child {
                 border-right: none;
