@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "461dbab49c2a8c1866918dec42b8ce21",
+    "revision": "b7da4b565256e6335ebba01b01d4b65e",
     "url": "/index.html"
   },
   {
-    "revision": "4930e5a68b2fc874a806",
-    "url": "/static/css/main.54214ac2.chunk.css"
+    "revision": "83b7246808dde8dd72f9",
+    "url": "/static/css/main.f4c92d00.chunk.css"
   },
   {
-    "revision": "e5a168bb44a6ba22ab5d",
-    "url": "/static/js/2.1cdc9694.chunk.js"
+    "revision": "9baedb7c5314b6328599",
+    "url": "/static/js/2.8d7e3ce7.chunk.js"
   },
   {
-    "revision": "4930e5a68b2fc874a806",
-    "url": "/static/js/main.f9126ea2.chunk.js"
+    "revision": "83b7246808dde8dd72f9",
+    "url": "/static/js/main.f9399f2a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d5735069a7b99fded6beba7a584c3be9",
     "url": "/static/media/oskarberggren.d5735069.jpg"
+  },
+  {
+    "revision": "6f69f1909ca8f72003bd4f2d32c714e3",
+    "url": "/static/media/tornbybilteknik.6f69f190.jpg"
   },
   {
     "revision": "0169bc2ae3760ffef9931b959a59be96",
