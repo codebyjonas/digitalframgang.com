@@ -3,7 +3,11 @@ import { MdAssessment, MdSearch, MdLoop, MdAttachMoney } from 'react-icons/md'
 import { FaMailBulk } from 'react-icons/fa'
 
 const Services = () => (
-    <section id='services' name='services' className='section is-medium'>
+    <section
+        id='services'
+        name='services'
+        className='section is-medium has-light-grey-background'
+    >
         <div className='container is-fluid'>
             <h2 className='title is-1 has-blue-sidebar'>
                 Vår metod för en optimerad hemsida

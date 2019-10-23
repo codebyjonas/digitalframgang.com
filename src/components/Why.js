@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdTrackChanges, MdAttachMoney, MdSwapCalls } from 'react-icons/md'
+import SkewedDivider from './subcomponents/SkewedDivider'
 
 const whyyUsTop3 = [
     {
@@ -72,8 +73,7 @@ const Why = () => (
                 </div>
             </div>
         </div>
-        <div id='rotated-background-triangle1'></div>
-        <div id='rotated-background-triangle2'></div>
+        <SkewedDivider color='#efefef' direction='right' />
     </section>
 )
 

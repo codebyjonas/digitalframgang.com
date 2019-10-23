@@ -14,6 +14,7 @@ $green-light: #0a6a61;
 $orange: #f39200;
 $orange-light: #ffa319c9;
 $blue-light: #d3f4fd;
+$grey-light-light: #efefef;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Merriweather', sans-serif;
@@ -31,13 +32,19 @@ $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
 $footer-padding: 12rem;
+$gap: 180px;
 
 // Buttons
 $control-radius: 1000000px;
 $button-padding-horizontal: 1.5rem;
 
-// Gap
-$gap: 180px;
+.button.is-transparent {
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+// Own vars
+$border-radius: 3px;
 
 .button {
     font-size: 1rem;
@@ -63,6 +70,8 @@ $gap: 180px;
 @import './style/why';
 @import './style/subhero';
 @import './style/footer';
+@import './style/subComponents/reference';
+@import './style/subComponents/skewed-divider';
 
 // Setting font
 .title,
@@ -150,6 +159,10 @@ $gap: 180px;
 .has-white-background {
     background-color: white;
 }
+
+.has-light-grey-background {
+    background-color: $grey-light-light;
+}
 .has-img-background {
     background-image: url('./assets/hero-image.jpg');
     background-size: cover;
@@ -161,6 +174,10 @@ $gap: 180px;
 
 p {
     margin-bottom: 1em;
+}
+
+.has-position-relative {
+    position: relative;
 }
 
 @media only screen and (max-width: 768px) {
