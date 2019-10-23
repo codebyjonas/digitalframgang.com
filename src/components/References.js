@@ -9,7 +9,7 @@ const references = [
         shortDesc:
             'Digital Framgång moderniserade Tornby Biltekniks hemsida, till en konvertingsoptiemrad och sökmotorsoptimerad hemsida',
         longDesc:
-            'We want to see more charts low hanging fruit and into the weeds we need to make the new version clean and sexy. Powerpoint Bunny can we take this offline, yet design thinking yet data-point we’re all in this together, even if our businesses function differently yet product launch diversify kpis. ',
+            'Tornby Bilteknik behövde en ny hemsida som skulle vara tydlig, enkel och modern. Förutom att utveckla en hemsida efter dessa behov hjälpte vi även dem med såväl fotografering som insamling av kundreferenser för att skapa en konverterande hemsida.',
         link: 'http://tornbybilteknik.com'
     }
 ]
