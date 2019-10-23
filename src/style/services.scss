@@ -1,13 +1,19 @@
 #services {
-    .is-paddingless {
-        margin-left: 0.5rem;
-    }
-}
-
-#services {
     background-color: #efefef;
-}
-.icon {
-    height: 2rem;
-    width: 2rem;
+    .service-cards {
+        margin-top: 5rem;
+        .service-card {
+            text-align: center;
+            .icon {
+                height: 4rem;
+                width: 4rem;
+                font-size: 4rem;
+                text-align: center;
+                color: $orange;
+            }
+        }
+        .is-paddingless {
+            margin-left: 0.5rem;
+        }
+    }
 }
