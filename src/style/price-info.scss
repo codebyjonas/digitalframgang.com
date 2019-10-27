@@ -1,11 +1,58 @@
 #price-info {
+    background-color: #efefef; //Gör om till variabel
+
+    @media screen and (min-width: 1024px){
+        .container {
+            max-width: 1200px;
+        }
+    }
+
+
     .price-info-container {
-        border: 1px solid $beige-light;
-        padding: 3rem;
+        margin: 3rem;
+        padding: 0;
 
         header {
             background-color: $primary;
             padding: 1rem;
+            .title{
+                text-align: center;
+                color:white;
+            }
         }
     }
+    .package-mid-section{
+        background-color: white;
+        height: 380px;
+        padding: 1rem;
+    }
+    .button-price-info{
+        padding: 1.5rem;
+        background-color: $orange;
+        text-align: center;
+        font-size: 1.7em;
+        cursor: pointer;
+        color: white;
+        border-radius: 7px;
+        p{
+            margin-bottom: 0;
+        }
+        &:hover{
+            background-color: $orange-light;
+            transition: 0.5s;
+
+        }
+    }
+    .price-tag{
+        background-color: white;
+        padding: 0rem 1rem 1rem 3rem;
+        text-align: left;
+        p{
+            margin-bottom: 0;
+            color: black;
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    }
+
 }
