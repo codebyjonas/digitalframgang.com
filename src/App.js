@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import SubHero from './components/SubHero'
 import Contact from './components/Contact'
 import PriceInfo from './components/PriceInfo'
+import References from './components/References'
 
 const App = () => (
     <>
@@ -16,6 +17,7 @@ const App = () => (
         <Hero />
         <Services />
         <Why />
+        <References />
         <SubHero />
         <AboutUs />
         <PriceInfo></PriceInfo>

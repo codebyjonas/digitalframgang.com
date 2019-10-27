@@ -12,19 +12,8 @@
 }
 
 /// Move out, this should be one component
-#rotated-background-triangle1 {
-    position: absolute;
-    width: 0;
-    height: 0;
-    top: 0;
-    z-index: 7;
-    border-top: 5vw solid #efefef;
-    border-left: 100vw solid transparent;
-}
 
 #why-text-container {
-    margin-left: 3rem;
-    margin-right: 3rem;
     max-width: 100%;
 
     .columns .is-two-third {

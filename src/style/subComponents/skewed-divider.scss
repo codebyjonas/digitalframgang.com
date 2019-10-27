@@ -1,0 +1,16 @@
+.rotated-background-triangle1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    border-top: 5vw solid;
+
+    &.left {
+        border-right: 100vw solid transparent;
+    }
+    &.right {
+        border-left: 100vw solid transparent;
+    }
+}

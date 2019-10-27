@@ -1,5 +1,6 @@
 import React from 'react'
-import { MdTrackChanges, MdAttachMoney, MdHistory } from 'react-icons/md'
+import { MdTrackChanges, MdAttachMoney, MdSwapCalls } from 'react-icons/md'
+import SkewedDivider from './subcomponents/SkewedDivider'
 
 const whyyUsTop3 = [
     {
@@ -15,10 +16,10 @@ const whyyUsTop3 = [
             'Vi hjälper er från vision till en framgångsrik hemsida. Vi förstår att ni har en verksamhet att driva, varför det är helt upp till er hur involverade ni vill vara i processen.'
     },
     {
-        icon: <MdHistory />,
-        title: 'Lång erfarenhet',
+        icon: <MdSwapCalls />,
+        title: 'Flexibilitet',
         copy:
-            'Vårt team har flera års erfarenhet av både marknadsanalys och webbutveckling, därför kan vi garantera en hemsida som kunder enkelt kan hitta och som även främjar försäljning.'
+            'Våra kunder går i första hand och därför ser vi till att vara tillgängliga när det passar er. Genom att även vara lyhörda både före och under utvecklingsprocessen garanterar vi hemsidor som uppfyller era specifika behov.'
     }
 ]
 
@@ -28,7 +29,7 @@ const Why = () => (
         name='why-us'
         className='section is-medium why-section'
     >
-        <div id='why-text-container' className='container'>
+        <div id='why-text-container' className='container is-fluid'>
             <div className='columns is-8 is-variable is-desktop'>
                 <div className='column'>
                     <h2 className='title is-1 has-blue-sidebar'>
@@ -72,8 +73,7 @@ const Why = () => (
                 </div>
             </div>
         </div>
-        <div id='rotated-background-triangle1'></div>
-        <div id='rotated-background-triangle2'></div>
+        <SkewedDivider color='#efefef' direction='right' />
     </section>
 )
 

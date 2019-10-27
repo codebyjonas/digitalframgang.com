@@ -1,35 +1,45 @@
 import React from 'react'
-
-// Only for keep in Build / Jonas
-import Email from '../assets/email-signature-logo.png'
+import { links } from '../assets/Consts'
+import { Link } from 'react-scroll'
 
 const Footer = () => (
     <footer className='section is-small'>
-        <div className='content has-text-centered'>
+        <div className='content container is-fluid'>
             <div className='columns'>
                 <div className='column'>
-                    <strong>@ 2019 Digital Framgång</strong>
-                </div>
-                <div className='column'>
-                    <strong>Adress</strong>
-                    <p className='no-margin-bot'>Vallavägen 6</p>
-                    <p className='no-margin-bot'>58215</p>
-                    <p className='no-margin-bot'>Linköping</p>
-                    <p className='no-margin-bot'>
-                        Epost: hej@digitalframgang.com
+                    <h4 className='is-title is-4 has-blue-sidebar'>
+                        Digital Framgång
+                    </h4>
+                    <p>
+                        Med lång erfarenhet av kombinationen mellan
+                        webbutveckling och marknadsanalys kan vi på Digital
+                        Framgång hjälpa ert företag att nå ut bättre på
+                        internet. Våra kontaktuppgifter finns nedan, vi hörs!
                     </p>
-                    <p className='no-margin-bot'>Tel: 0738969209</p>
+                </div>
+                <div className='column menu'>
+                    <h4 className='is-title is-4 has-blue-sidebar'>Meny</h4>
+                    {links.map(link => (
+                        <Link
+                            key={link.link}
+                            to={link.link}
+                            smooth={true}
+                            duration={500}
+                            activeClass='is-active'
+                            spy={true}
+                        >
+                            {link.displayName}
+                        </Link>
+                    ))}
                 </div>
             </div>
+            <div className='has-text-centered'>
+                <span>
+                    Vallavägen 6 | 58215 | Linköping | hej@digitalframgang.com |
+                    073 896 92 09
+                </span>
+            </div>
         </div>
-        {
-            //Only for keep in build
-        }
-        <img
-            src={Email}
-            alt='Digital Framgång'
-            style={{ display: 'none' }}
-        ></img>
     </footer>
 )
 

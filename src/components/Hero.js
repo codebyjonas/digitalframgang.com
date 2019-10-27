@@ -13,7 +13,7 @@ const Hero = () => (
                     className='subtitle is-2 is-white large-spacing'
                 >
                     Vi utvecklar hemsidor som förbättrar er digitala närvaro och
-                    öka er försäljning
+                    ökar er försäljning
                 </h2>
                 <div id='hero-buttons' className='buttons'>
                     <Link
