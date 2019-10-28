@@ -108,7 +108,7 @@ const PriceInfo = () => (
                         ))}
                     </div>
                     <div className="price-tag">
-                        <p>Pris: Offerteras</p>
+                        <p>Pris: Offereras</p>
                     </div>
                     <Link
                         id='tailord-pac-link'
