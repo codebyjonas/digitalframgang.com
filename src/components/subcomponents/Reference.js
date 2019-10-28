@@ -6,7 +6,7 @@ const Reference = props => (
             <div className='overlay'>
                 {props.reference.longDesc}
                 <a href={props.reference.link} target='_blank'>
-                    Gå till {props.reference.title}
+                    >> Gå till {props.reference.title}
                 </a>
             </div>
             <img

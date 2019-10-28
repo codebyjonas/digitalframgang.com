@@ -1,6 +1,8 @@
 .navbar-brand {
     .image {
         padding: 0.5rem;
+        height:65px;
+        width: 65px;
     }
 }
 .navbar-item {
@@ -17,4 +19,14 @@
             background: transparent;
         }
     }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar-brand {
+        .image {
+            height:48px;
+            width: 48px;
+        }
+    }
+
 }

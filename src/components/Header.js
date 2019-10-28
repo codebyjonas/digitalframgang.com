@@ -43,7 +43,7 @@ class Header extends React.Component {
             >
                 <div className='navbar-brand'>
                     <Link to='hero' smooth={true} duration={500}>
-                        <figure className='image is-48x48'>
+                        <figure className='image'>
                             <img src={Logo} alt='Digital Framgång'></img>
                         </figure>
                     </Link>
