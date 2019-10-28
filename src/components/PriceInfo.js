@@ -53,13 +53,9 @@ const PriceInfo = () => (
             <div className='columns'>
                 <div className='column price-info-container'>
                     <header>
-<<<<<<< HEAD
+
                         <h4 className='title is-4 is-white'>{basePackage.title}</h4>
-=======
-                        <h4 className='title is-3 is-white'>
-                            {basePackage.title}
-                        </h4>
->>>>>>> development
+
                     </header>
                     <div className='body package-mid-section'>
                         {basePackage.features.map(item => (
@@ -92,13 +88,10 @@ const PriceInfo = () => (
 
                 <div className='column price-info-container'>
                     <header>
-<<<<<<< HEAD
+
                         <h4 className='title is-4 is-white'>{taylored.title}</h4>
-=======
-                        <h4 className='title is-3 is-white'>
-                            {taylored.title}
-                        </h4>
->>>>>>> development
+
+
                     </header>
                     <div className='body package-mid-section'>
                         <p id='about-dig-fram-pac' className='has-text-dark'>
