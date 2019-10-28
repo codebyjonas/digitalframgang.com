@@ -70,7 +70,7 @@ const PriceInfo = () => (
                         ))}
                     </div>
                     <div className="price-tag">
-                        <p>19 999 kr</p>
+                        <p>Pris: 19 999 kr</p>
                     </div>
 
                     <Link
@@ -93,7 +93,7 @@ const PriceInfo = () => (
                         <h4 className='title is-3 is-white'>{taylored.title}</h4>
                     </header>
                     <div className='body package-mid-section'>
-                        <p className='has-text-dark'>
+                        <p id="about-dig-fram-pac" className='has-text-dark'>
                             Utöver allt som ingår i GRUNDLIG erbjuder vi med paketet
                             DIGITAL FRAMGÅNG en ännu mer anpassad lösning för särskilt
                             specifika behov.
@@ -108,7 +108,7 @@ const PriceInfo = () => (
                         ))}
                     </div>
                     <div className="price-tag">
-                        <p> Offerteras</p>
+                        <p>Pris: Offerteras</p>
                     </div>
                     <Link
                         id='tailord-pac-link'

@@ -5,6 +5,7 @@
         .container {
             max-width: 1200px;
         }
+
     }
 
 
@@ -24,7 +25,19 @@
     .package-mid-section{
         background-color: white;
         height: 380px;
-        padding: 1rem;
+        padding: 1.5rem;
+
+        #about-dig-fram-pac{
+            font-family: $family-secondary;
+            font-weight: bold;
+        }
+        div span{
+            vertical-align: middle;
+            margin-top: 6px;
+            margin-bottom: 6px;
+            margin-left: 0px;
+            margin-right: 2px;
+        }
     }
     .button-price-info{
         padding: 1.5rem;
@@ -36,6 +49,7 @@
         border-radius: 7px;
         p{
             margin-bottom: 0;
+            font-family: $family-secondary;
         }
         &:hover{
             background-color: $orange-light;
@@ -45,7 +59,7 @@
     }
     .price-tag{
         background-color: white;
-        padding: 0rem 1rem 1rem 3rem;
+        padding: 0rem 1rem 1rem 1.5rem;
         text-align: left;
         p{
             margin-bottom: 0;
@@ -54,5 +68,26 @@
             font-size: 1.5rem;
         }
     }
+    @media screen and (max-width: 1024px){
+        .price-info-container {
+            margin: 2rem 20px 2rem 20px;
+        }
+        .package-mid-section{
+            font-size: 0.9em;
 
+        }
+    }
+
+    @media screen and (max-width: 720px){
+        .price-info-container {
+            margin: 2rem 5px 2rem 5px;
+        }
+
+
+
+        .button-price-info{
+            padding:1.2rem;
+            font-size:1.5em;
+        }
+    }
 }
