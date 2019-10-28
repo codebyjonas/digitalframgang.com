@@ -3,61 +3,63 @@ import { IoIosCheckmarkCircle } from 'react-icons/io'
 import { Link } from 'react-scroll'
 
 const basePackage = {
-    title: "GRUNDLIG",
-    features:
-         [
-            'Analys av er hemsida, värdeerbjudande och kundbas ',
-            'Konverterande landningssida som väcker intresse ',
-            'Tre undersidor',
-            'Rätt texter och bilder, anpassade för just era kunder ',
-            'Mobilanpassning ',
-            'Sökmotorsoptimering',
-            'Kontaktformulär',
-            'Google karta '
-         ]
+    title: 'Grundlig',
+    features: [
+        'Analys av er hemsida, värdeerbjudande och kundbas ',
+        'Konverterande landningssida som väcker intresse ',
+        'Tre undersidor',
+        'Rätt texter och bilder, anpassade för just era kunder ',
+        'Mobilanpassning ',
+        'Sökmotorsoptimering',
+        'Kontaktformulär',
+        'Google karta '
+    ]
 }
 
 const taylored = {
-    title: 'DIGTIAL FRAMGÅNG',
-    features:
-        [
-            'Insamling och utformning av kundberättelser ',
-            'Kundintervjuer och marknadsundersökning ',
-            'Fotografering ',
-            'Integration med sociala medier ',
-            'Produktkataloger ',
-            'Övriga avancerade funktioner som bokningssystem ',
-            '...och mycket mer '
-        ]
+    title: 'Digital Framgång',
+    features: [
+        'Insamling och utformning av kundberättelser ',
+        'Kundintervjuer och marknadsundersökning ',
+        'Fotografering ',
+        'Integration med sociala medier ',
+        'Produktkataloger ',
+        'Övriga avancerade funktioner som bokningssystem ',
+        '...och mycket mer '
+    ]
 }
-
-
-
 
 const PriceInfo = () => (
     <section id='price-info' name='prince-info' className='section is-medium'>
         <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>Våra paket</h2>
-            <p id="our-packages-sub-text" className='has-text-dark'>Vår grundidé bygger på att hjälpa alla typer av kunder,
-                stora som små, att uppnå digital framgång genom att kostnadseffektivt
-                utveckla hemsidor skräddarsydda för er verksamhet.
-                Vi förstår att våra klienter har olika behov och
-                har därför utvecklat två paket.
+            <p id='our-packages-sub-text' className='has-text-dark'>
+                Vår grundidé bygger på att hjälpa alla typer av kunder, stora
+                som små, att uppnå digital framgång genom att kostnadseffektivt
+                utveckla hemsidor skräddarsydda för er verksamhet. Vi förstår
+                att våra klienter har olika behov och har därför utvecklat två
+                paket.
             </p>
-            <p className="has-text-dark">
-                Vårt baspaket <strong className="has-primary">GRUNDLIG </strong>
-                 är lösning för dig som vill ha en enkel och
-                modern hemsida, innehållande de mest central
-                komponenterna för att öka din försäljning. För dig
-                med en verksamhet som kräver en mer komplex lösning
-                rekommenderar vi vårt paket <strong>DIGITAL FRAMGÅNG </strong>där vi
-                hjälper dig att utveckla en hemsida som uppfyller dina specifika behov.
+            <p className='has-text-dark'>
+                Vårt baspaket <strong className='has-primary'>GRUNDLIG </strong>
+                är lösning för dig som vill ha en enkel och modern hemsida,
+                innehållande de mest central komponenterna för att öka din
+                försäljning. För dig med en verksamhet som kräver en mer komplex
+                lösning rekommenderar vi vårt paket{' '}
+                <strong>DIGITAL FRAMGÅNG </strong>där vi hjälper dig att
+                utveckla en hemsida som uppfyller dina specifika behov.
             </p>
 
             <div className='columns'>
                 <div className='column price-info-container'>
                     <header>
+<<<<<<< HEAD
                         <h4 className='title is-4 is-white'>{basePackage.title}</h4>
+=======
+                        <h4 className='title is-3 is-white'>
+                            {basePackage.title}
+                        </h4>
+>>>>>>> development
                     </header>
                     <div className='body package-mid-section'>
                         {basePackage.features.map(item => (
@@ -69,7 +71,7 @@ const PriceInfo = () => (
                             </div>
                         ))}
                     </div>
-                    <div className="price-tag">
+                    <div className='price-tag'>
                         <p>Pris: 19 999 kr</p>
                     </div>
 
@@ -82,21 +84,27 @@ const PriceInfo = () => (
                         activeClass='is-active'
                         spy={true}
                     >
-                        <div className="button-price-info title is-5">
-                            <p className="is-4">Beställ paket</p>
+                        <div className='button-price-info title is-5'>
+                            <p className='is-4'>Beställ paket</p>
                         </div>
                     </Link>
                 </div>
 
                 <div className='column price-info-container'>
                     <header>
+<<<<<<< HEAD
                         <h4 className='title is-4 is-white'>{taylored.title}</h4>
+=======
+                        <h4 className='title is-3 is-white'>
+                            {taylored.title}
+                        </h4>
+>>>>>>> development
                     </header>
                     <div className='body package-mid-section'>
-                        <p id="about-dig-fram-pac" className='has-text-dark'>
-                            Utöver allt som ingår i GRUNDLIG erbjuder vi med paketet
-                            DIGITAL FRAMGÅNG en ännu mer anpassad lösning för särskilt
-                            specifika behov.
+                        <p id='about-dig-fram-pac' className='has-text-dark'>
+                            Utöver allt som ingår i GRUNDLIG erbjuder vi med
+                            paketet DIGITAL FRAMGÅNG en ännu mer anpassad
+                            lösning för särskilt specifika behov.
                         </p>
                         {taylored.features.map(item => (
                             <div>
@@ -107,7 +115,7 @@ const PriceInfo = () => (
                             </div>
                         ))}
                     </div>
-                    <div className="price-tag">
+                    <div className='price-tag'>
                         <p>Pris: Offereras</p>
                     </div>
                     <Link
@@ -119,13 +127,11 @@ const PriceInfo = () => (
                         activeClass='is-active'
                         spy={true}
                     >
-                        <div className="button-price-info title is-5">
-                            <p className="is-4">Beställ paket</p>
+                        <div className='button-price-info title is-5'>
+                            <p className='is-4'>Beställ paket</p>
                         </div>
                     </Link>
                 </div>
-
-
             </div>
         </div>
     </section>
