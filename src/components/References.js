@@ -7,7 +7,7 @@ const references = [
         id: 'tornbybilteknik',
         title: 'Tornby Bilteknik',
         shortDesc:
-            'Digital Framgång moderniserade Tornby Biltekniks hemsida, till en konvertingsoptiemrad och sökmotorsoptimerad hemsida',
+            'Digital Framgång moderniserade Tornby Biltekniks hemsida, till en konverteringsoptimerad och sökmotorsoptimerad hemsida',
         longDesc:
             'Tornby Bilteknik behövde en ny hemsida som skulle vara tydlig, enkel och modern. Förutom att utveckla en hemsida efter dessa behov hjälpte vi även dem med såväl fotografering som insamling av kundreferenser för att skapa en konverterande hemsida.',
         link: 'http://tornbybilteknik.com'
