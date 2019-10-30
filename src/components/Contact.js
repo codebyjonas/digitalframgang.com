@@ -109,8 +109,9 @@ class Contact extends React.Component {
                                 Redo att uppnå Digital Framgång?
                             </h2>
                             <p>
-                                Boka ett första förutsättningslöst möte och få
-                                en gratis analys av er hemsida
+                                Kontakta oss idag för ett första
+                                förutsättningslöst möte och få en kostnadsfri
+                                analys av er hemsida.
                             </p>
                             <p>
                                 <strong>Kontakta oss istället?</strong>
