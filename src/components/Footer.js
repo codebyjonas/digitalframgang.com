@@ -11,10 +11,10 @@ const Footer = () => (
                         Digital Framgång
                     </h4>
                     <p>
-                        Med lång erfarenhet av kombinationen mellan
-                        webbutveckling och marknadsanalys kan vi på Digital
-                        Framgång hjälpa ert företag att nå ut bättre på
-                        internet. Våra kontaktuppgifter finns nedan, vi hörs!
+                        Genom att kombinera våra kunskaper inom webbutveckling
+                        och företagande kan vi på Digital Framgång hjälpa ert
+                        företag att nå ut bättre på internet. Våra
+                        kontaktuppgifter finns nedan, vi hörs!
                     </p>
                 </div>
                 <div className='column menu'>
