@@ -106,19 +106,23 @@ class Contact extends React.Component {
                     <div className='columns'>
                         <div className='column'>
                             <h2 className='title is-2'>
-                                Låt oss hjälpa er till en bättre image online!
+                                Redo att uppnå Digital Framgång?
                             </h2>
                             <p>
-                                Kontakta oss istället?
+                                Boka ett första förutsättningslöst möte och få
+                                en gratis analys av er hemsida
                             </p>
                             <p>
-                                E-post: hej@digitalframgang.com
+                                <strong>Kontakta oss istället?</strong>
+                            </p>
+                            <p>
+                                <strong>E-post:</strong> hej@digitalframgang.com
                             </p>
                         </div>
 
                         <div className='column'>
-                            <div className="columns">
-                                <div className="column">
+                            <div className='columns'>
+                                <div className='column'>
                                     <div className='field'>
                                         <label className='label'>Namn</label>
                                         <div className='control'>
@@ -132,7 +136,7 @@ class Contact extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column">
+                                <div className='column'>
                                     <div className='field'>
                                         <label className='label'>Email</label>
                                         <div className='control'>
@@ -148,8 +152,8 @@ class Contact extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="columns">
-                                <div className="column">
+                            <div className='columns'>
+                                <div className='column'>
                                     <div className='field'>
                                         <label className='label'>Telefon</label>
                                         <div className='control'>
@@ -163,7 +167,7 @@ class Contact extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="column">
+                                <div className='column'>
                                     <div className='field'>
                                         <label className='label'>Företag</label>
                                         <div className='control'>
@@ -172,7 +176,9 @@ class Contact extends React.Component {
                                                 type='email'
                                                 placeholder='Företagsnamn'
                                                 value={this.state.formCompany}
-                                                onChange={this.formCompanyUpdate}
+                                                onChange={
+                                                    this.formCompanyUpdate
+                                                }
                                             />
                                         </div>
                                     </div>
@@ -202,7 +208,9 @@ class Contact extends React.Component {
                                                         : '')
                                                 }
                                                 onClick={this.sendForm}
-                                                >Skicka</button>
+                                            >
+                                                Skicka
+                                            </button>
                                         </div>
                                     </div>
                                 </div>
