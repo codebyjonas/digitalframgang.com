@@ -35,8 +35,8 @@ const Footer = () => (
             </div>
             <div className='has-text-centered'>
                 <span>
-                    Vallavägen 6 | 58215 | Linköping | hej@digitalframgang.com |
-                    073 896 92 09
+                    559225-7090 | Vallavägen 6 | 58215 | Linköping |
+                    hej@digitalframgang.com | 073 896 92 09
                 </span>
             </div>
         </div>
