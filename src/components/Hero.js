@@ -15,6 +15,7 @@ const Hero = () => (
                     Vi utvecklar hemsidor som förbättrar er digitala närvaro och
                     ökar er försäljning
                 </h2>
+
                 <div id='hero-buttons' className='buttons'>
                     <Link
                         id='tell-me-more-button'
