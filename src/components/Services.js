@@ -10,7 +10,7 @@ const Services = () => (
     >
         <div className='container is-fluid'>
             <h2 className='title is-1 has-blue-sidebar'>
-                Vår metod för en optimerad hemsida
+                Vårt framgångsrecept för en optimerad hemsida
             </h2>
             <div className='columns service-cards'>
                 <div className='column service-card'>
