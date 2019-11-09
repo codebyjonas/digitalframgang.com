@@ -31,7 +31,7 @@ const taylored = {
 
 const PriceInfo = () => (
     <section id='price-info' name='price-info' className='section is-medium'>
-        <div className='container is-fluid'>
+        <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>Våra paket</h2>
             <p>
                 Vår grundidé bygger på att hjälpa alla typer av kunder, stora

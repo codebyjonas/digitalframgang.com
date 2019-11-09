@@ -1,32 +1,5 @@
-.why-section {
-    background: #efefef; /* Old browsers */
-    background: white;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-}
-@media screen and (min-width: 1024px) {
-    .section.why-section {
-        padding: 10vw 1.5rem 2rem 1.5rem;
-        position: relative;
-        z-index: 5;
-    }
-}
-
-/// Move out, this should be one component
-
-#why-text-container {
-    max-width: 100%;
-
-    .columns .is-two-third {
-        display: flex;
-        align-items: center;
-        margin-bottom: 5rem;
-    }
-}
-
 #why-us {
-    .title.is-1 {
-        margin-top: 0;
-    }
+    position: relative;
 
     .top-3-wrapper {
         .top-3-item {

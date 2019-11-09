@@ -90,7 +90,7 @@ class AboutUs extends React.Component {
                             {members.map(member => (
                                 <div key={member.id} className='column is-half'>
                                     <div className='columns'>
-                                        <div className='column'>
+                                        <div className='column image-container'>
                                             <figure className='image is-square profile-image'>
                                                 <img
                                                     className='is-rounded'

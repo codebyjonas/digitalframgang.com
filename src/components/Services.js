@@ -8,7 +8,7 @@ const Services = () => (
         name='services'
         className='section is-medium has-light-grey-background'
     >
-        <div className='container is-fluid'>
+        <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>
                 Vårt framgångsrecept för en optimerad hemsida
             </h2>

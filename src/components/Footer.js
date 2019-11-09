@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Footer = () => (
     <footer className='section is-small'>
-        <div className='content container is-fluid'>
+        <div className='content container'>
             <div className='columns'>
                 <div className='column'>
                     <h4 className='is-title is-4 has-blue-sidebar'>

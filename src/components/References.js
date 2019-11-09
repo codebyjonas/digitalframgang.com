@@ -20,7 +20,7 @@ const References = () => (
         name='prince-info'
         className='section is-medium has-light-grey-background has-position-relative'
     >
-        <div className='container is-fluid'>
+        <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>Våra kundcase</h2>
             <div className='columns'>
                 {references.map(reference => (

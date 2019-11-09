@@ -8,45 +8,37 @@
     }
 }
 
-.contact-details {
-    display: flex;
-    align-items: center;
-    .title {
-        margin-bottom: 1rem;
-        display: block;
+#aboutus-pictures {
+    .image-container {
+        max-width: 200px;
     }
-    .email-copy-container {
+
+    .contact-details {
         display: flex;
         align-items: center;
-
-        .email-icon {
-            width: 3rem;
-            height: 3rem;
-            border-radius: 9999px;
-            background-color: $primary;
-            color: #fff;
+        .title {
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .email-copy-container {
             display: flex;
-            cursor: pointer;
-            transition: opacity 500ms;
-            margin: 0 1rem 0 0;
+            align-items: center;
 
-            &:hover {
-                opacity: 0.5;
+            .email-icon {
+                width: 3rem;
+                height: 3rem;
+                border-radius: 9999px;
+                background-color: $primary;
+                color: #fff;
+                display: flex;
+                cursor: pointer;
+                transition: opacity 500ms;
+                margin: 0 1rem 0 0;
+
+                &:hover {
+                    opacity: 0.5;
+                }
             }
-        }
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    #about-us {
-        .container {
-            max-width: 1160px;
-        }
-        #profile-image img {
-            height: 85%;
-            width: 85%;
-            margin-left: auto;
-            margin-right: auto;
         }
     }
 }

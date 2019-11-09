@@ -29,7 +29,7 @@ const Why = () => (
         name='why-us'
         className='section is-medium why-section'
     >
-        <div id='why-text-container' className='container is-fluid'>
+        <div id='why-text-container' className='container'>
             <div className='columns is-8 is-variable is-desktop'>
                 <div className='column'>
                     <h2 className='title is-1 has-blue-sidebar'>
@@ -73,7 +73,6 @@ const Why = () => (
                 </div>
             </div>
         </div>
-        <SkewedDivider color='#efefef' direction='right' />
     </section>
 )
 
