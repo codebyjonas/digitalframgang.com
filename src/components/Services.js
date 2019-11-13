@@ -56,8 +56,8 @@ const Services = () => (
                     <p>
                         Vi håller vad vi lovar och därför är vi noggranna i vår
                         uppföljning. För att ni kontinuerligt ska kunna följa
-                        upp och förbättra upp er digitala närvaro inkluderar vi
-                        även ett användarvänligt uppföljningsverktyg - Helt utan
+                        upp och förbättra er digitala närvaro inkluderar vi även
+                        ett användarvänligt uppföljningsverktyg - Helt utan
                         extra kostnad
                     </p>
                 </div>
