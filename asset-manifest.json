@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9bcc357.chunk.css",
+    "main.css": "/static/css/main.564dfaee.chunk.css",
     "main.js": "/static/js/main.b145422b.chunk.js",
     "main.js.map": "/static/js/main.b145422b.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.7a62901a.chunk.js": "/static/js/2.7a62901a.chunk.js",
     "static/js/2.7a62901a.chunk.js.map": "/static/js/2.7a62901a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c1721b5ca3db9537ffec057dd9ef3a03.js": "/precache-manifest.c1721b5ca3db9537ffec057dd9ef3a03.js",
+    "precache-manifest.c1b4248b41d30e5d7e1c72f14b49d937.js": "/precache-manifest.c1b4248b41d30e5d7e1c72f14b49d937.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d9bcc357.chunk.css.map": "/static/css/main.d9bcc357.chunk.css.map",
+    "static/css/main.564dfaee.chunk.css.map": "/static/css/main.564dfaee.chunk.css.map",
     "static/media/App.scss": "/static/media/hero-image.d37cc161.jpg",
     "static/media/jesperhedlund.jpg": "/static/media/jesperhedlund.652aacbb.jpg",
     "static/media/jonasolaussen.jpg": "/static/media/jonasolaussen.93f13ff5.jpg",
