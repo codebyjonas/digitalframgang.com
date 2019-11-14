@@ -14,6 +14,11 @@ footer {
             border-right: 2px solid $orange;
             transition: color 500ms;
 
+            @media only screen and (max-width: 450px) {
+                display: block;
+                border-right: 0;
+            }
+
             &:hover {
                 color: white;
             }

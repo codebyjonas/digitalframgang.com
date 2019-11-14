@@ -1,6 +1,7 @@
 .hero {
     background-image: url('./assets/hero-image.jpg');
     background-size: cover;
+    max-height: 100vh;
     &::after {
         background-color: $green;
         content: '';
