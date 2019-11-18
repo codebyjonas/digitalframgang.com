@@ -1,49 +1,44 @@
 .reference {
-    width: 100%;
     border-radius: $border-radius;
     border: 1rem solid white;
     background-color: white;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.2);
 
-    figure {
-        position: relative;
-        img {
-            border: 1px solid $grey-light-light;
-        }
-        .overlay {
-            transition: all 500ms;
-            opacity: 0;
-            position: absolute;
-            top: 0;
-            left: 0;
-            padding: 1.8rem;
-            background-color: $green;
-            color: #ffffff;
-            z-index: 20;
-            width: 100%;
-            height: 100%;
-            overflow-y: auto;
-            font-size: 0.85em;
-            a {
-                margin-top: 1rem;
-                display: block;
+    .image-container {
+        height: 100%;
+        background-size: cover;
+        border-radius: $border-radius;
+        border: 1px solid $grey-light;
+    }
 
-                &:hover {
-                    color: white;
-                }
-            }
-        }
+    .column {
+        padding: 1rem 1rem 0.75rem;
     }
 
     .body {
-        padding: 2rem 0.5rem 0;
-    }
+        .client-quote {
+            font-style: italic;
+        }
+        .client-name-and-role {
+            font-weight: bold;
+            margin-top: -1rem;
+            text-align: right;
+        }
 
-    &:hover {
-        box-shadow: 0 0 40px rgba(102, 102, 102, 0.2);
-        figure {
-            .overlay {
-                opacity: 1;
+        .nice-stats {
+            background: $beige-lighter;
+            border-radius: $border-radius;
+            margin-top: 1rem;
+            padding: 1rem;
+
+            div > div {
+                border-right: 1px solid $grey-light;
+                padding: 0 1rem;
+                margin-bottom: 1rem;
+
+                &:last-child {
+                    border-right: 0;
+                }
             }
         }
     }
