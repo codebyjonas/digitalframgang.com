@@ -69,7 +69,9 @@ const PriceInfo = () => (
                         ))}
                     </div>
                     <div className='price-tag'>
-                        <p>Pris: 19 999 kr</p>
+                        <p>
+                            Pris: 19 999 kr <span>(ex moms)</span>
+                        </p>
                     </div>
                     <Link
                         id='base-pac-link'

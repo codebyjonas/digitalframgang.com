@@ -3,6 +3,21 @@ footer {
     background: $green;
     color: white;
 
+    .icon {
+        $size: 2.5rem;
+        font-size: $size;
+        height: $size;
+        width: $size;
+
+        a {
+            color: #fff;
+            transition: color 500ms;
+            &:hover {
+                color: $orange;
+            }
+        }
+    }
+
     .is-title {
         color: white;
     }
