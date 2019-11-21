@@ -15,7 +15,6 @@ $orange: #f39200;
 $orange-light: #ffa319c9;
 $blue-light: #d3f4fd;
 $grey-light-light: #efefef;
-$red: #FE4A49;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Merriweather', sans-serif;
@@ -72,7 +71,6 @@ $border-radius: 3px;
 @import './style/subhero';
 @import './style/price-info';
 @import './style/footer';
-@import './style/our-process';
 @import './style/subComponents/reference';
 @import './style/subComponents/skewed-divider';
 

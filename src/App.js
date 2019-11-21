@@ -10,7 +10,6 @@ import SubHero from './components/SubHero'
 import Contact from './components/Contact'
 import PriceInfo from './components/PriceInfo'
 import References from './components/References'
-import OurProcess from './components/OurProcess'
 
 const App = () => (
     <>
@@ -20,7 +19,6 @@ const App = () => (
         <Why />
         <References />
         <SubHero />
-        <OurProcess/>
         <AboutUs />
         <PriceInfo></PriceInfo>
         <Contact />
