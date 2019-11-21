@@ -130,7 +130,7 @@ class Contact extends React.Component {
                                             <input
                                                 className='input'
                                                 type='text'
-                                                placeholder='namn...'
+                                                placeholder='Namn'
                                                 value={this.state.formName}
                                                 onChange={this.formNameUpdate}
                                             />
@@ -139,12 +139,12 @@ class Contact extends React.Component {
                                 </div>
                                 <div className='column'>
                                     <div className='field'>
-                                        <label className='label'>Email</label>
+                                        <label className='label'>E-post</label>
                                         <div className='control'>
                                             <input
                                                 className='input'
                                                 type='email'
-                                                placeholder='din@email.com'
+                                                placeholder='E-postadress'
                                                 value={this.state.formMail}
                                                 onChange={this.formMailUpdate}
                                             />

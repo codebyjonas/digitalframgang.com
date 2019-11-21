@@ -8,9 +8,9 @@ const Services = () => (
         name='services'
         className='section is-medium has-light-grey-background'
     >
-        <div className='container is-fluid'>
+        <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>
-                Vår metod för en optimerad hemsida
+                Vårt framgångsrecept för en optimerad hemsida
             </h2>
             <div className='columns service-cards'>
                 <div className='column service-card'>
@@ -56,8 +56,8 @@ const Services = () => (
                     <p>
                         Vi håller vad vi lovar och därför är vi noggranna i vår
                         uppföljning. För att ni kontinuerligt ska kunna följa
-                        upp och förbättra upp er digitala närvaro inkluderar vi
-                        även ett användarvänligt uppföljningsverktyg - Helt utan
+                        upp och förbättra er digitala närvaro inkluderar vi även
+                        ett användarvänligt uppföljningsverktyg - Helt utan
                         extra kostnad
                     </p>
                 </div>

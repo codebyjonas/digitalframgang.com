@@ -1,10 +1,11 @@
 import React from 'react'
 import { links } from '../assets/Consts'
 import { Link } from 'react-scroll'
+import { FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => (
     <footer className='section is-small'>
-        <div className='content container is-fluid'>
+        <div className='content container'>
             <div className='columns'>
                 <div className='column'>
                     <h4 className='is-title is-4 has-blue-sidebar'>
@@ -16,6 +17,14 @@ const Footer = () => (
                         företag att nå ut bättre på internet. Våra
                         kontaktuppgifter finns nedan, vi hörs!
                     </p>
+                    <span className='icon'>
+                        <a
+                            href='https://hk.linkedin.com/company/digital-framg%C3%A5ng'
+                            target='_blank'
+                        >
+                            <FaLinkedin />
+                        </a>
+                    </span>
                 </div>
                 <div className='column menu'>
                     <h4 className='is-title is-4 has-blue-sidebar'>Meny</h4>
@@ -35,8 +44,8 @@ const Footer = () => (
             </div>
             <div className='has-text-centered'>
                 <span>
-                    Vallavägen 6 | 58215 | Linköping | hej@digitalframgang.com |
-                    073 896 92 09
+                    559225-7090 | Vallavägen 6 | 58215 | Linköping |
+                    hej@digitalframgang.com | 073 896 92 09
                 </span>
             </div>
         </div>

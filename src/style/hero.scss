@@ -1,6 +1,12 @@
 .hero {
     background-image: url('./assets/hero-image.jpg');
     background-size: cover;
+    max-height: 100vh;
+}
+
+.hero-body {
+    position: relative;
+    z-index: 9;
 }
 #hero-subtitle {
     font-family: $family-secondary;
