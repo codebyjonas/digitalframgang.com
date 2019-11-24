@@ -6,9 +6,14 @@
 
     .image-container {
         height: 100%;
+        background-position: center top;
         background-size: cover;
         border-radius: $border-radius;
         border: 1px solid $grey-light;
+
+        @media screen and (max-width: $tablet) {
+            padding-bottom: 75%;
+        }
     }
 
     .column {

@@ -30,7 +30,7 @@ const Why = () => (
         className='section is-medium why-section'
     >
         <div id='why-text-container' className='container'>
-            <div className='columns is-8 is-variable is-desktop'>
+            <div className='columns is-8 is-variable'>
                 <div className='column'>
                     <h2 className='title is-1 has-blue-sidebar'>
                         Varför välja oss?

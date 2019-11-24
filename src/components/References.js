@@ -7,13 +7,17 @@ const references = [
         id: 'tornbybilteknik',
         title: 'Tornby Bilteknik',
         shortDesc:
-            'Digital Framgång moderniserade Tornby Biltekniks hemsida, till en konverteringsoptimerad och sökmotorsoptimerad hemsida',
+            'Digital Framgång moderniserade Tornby Biltekniks hemsida, till en konverteringsoptimerad och sökmotoroptimerad hemsida',
         longDesc:
             'Tornby Bilteknik behövde en ny hemsida som skulle vara tydlig, enkel och modern. Förutom att utveckla en hemsida efter dessa behov hjälpte vi även dem med såväl fotografering som insamling av kundreferenser för att skapa en konverterande hemsida.',
         clientQuote:
             '”Vi är väldigt nöjda med samarbetet. Grabbarna på Digital Framgång är otroligt professionella samtidigt som upprätthåller hög flexibilitet under processen, något som är särskilt viktigt för oss som har fullt upp om dagarna.”',
         clientNameAndRole: 'Fredrik Menck, Grundare',
-        link: 'http://tornbybilteknik.com'
+        link: 'http://tornbybilteknik.com',
+        results: [
+            'Sökmotoroptimerad: Förstasidan på Google för relevanta sökord',
+            'Flerdubblad konverteringsgrad från besökare till kontaktformulär, vilket frigjorde tid för personalen'
+        ]
     }
 ]
 

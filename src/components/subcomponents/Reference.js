@@ -25,17 +25,10 @@ const Reference = props => (
             </a>
             <div className='nice-stats'>
                 <h4 className='title is-6'>Resultat</h4>
-                <div className=' columns'>
-                    <div className='column'>
-                        Top 3 plats på Google för relevanta sökord
-                    </div>
-                    <div className='column'>
-                        Flerdubblade konverteringsgraden och frigörde viktig tid
-                        för Företaget
-                    </div>
-                    <div className='column'>
-                        Snälla och snabba bilreperationer
-                    </div>
+                <div className='columns'>
+                    {props.reference.results.map(result => (
+                        <div className='column'>{result}</div>
+                    ))}
                 </div>
             </div>
         </div>
