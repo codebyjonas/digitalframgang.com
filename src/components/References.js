@@ -11,7 +11,7 @@ const references = [
         longDesc:
             'Tornby Bilteknik behövde en ny hemsida som skulle vara tydlig, enkel och modern. Förutom att utveckla en hemsida efter dessa behov hjälpte vi även dem med såväl fotografering som insamling av kundreferenser för att skapa en konverterande hemsida.',
         clientQuote:
-            '”Vi är väldigt nöjda med samarbetet. Grabbarna på Digital Framgång är otroligt professionella samtidigt som upprätthåller hög flexibilitet under processen, något som är särskilt viktigt för oss som har fullt upp om dagarna.”',
+            '”Vi är väldigt nöjda med resultatet. Framförallt har grabbarna på Digital Framgång varit flexibla och lyhörda, något som är viktigt för oss som har fullt upp om dagarna.”',
         clientNameAndRole: 'Fredrik Menck, Grundare',
         link: 'http://tornbybilteknik.com',
         results: [
