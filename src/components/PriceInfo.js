@@ -3,7 +3,7 @@ import { IoIosCheckmarkCircle } from 'react-icons/io'
 import { Link } from 'react-scroll'
 
 const basePackage = {
-    title: 'Grundlig',
+    title: 'Bas',
     features: [
         'Analys av er hemsida, värdeerbjudande och kundbas ',
         'Konverterande landningssida som väcker intresse ',
@@ -41,7 +41,7 @@ const PriceInfo = () => (
                 paket.
             </p>
             <p>
-                Vårt baspaket <strong>Grundlig </strong>
+                Vårt paket <strong>Bas </strong>
                 är lösning för dig som vill ha en enkel och modern hemsida,
                 innehållande de mest central komponenterna för att öka din
                 försäljning. För dig med en verksamhet som kräver en mer komplex
@@ -56,7 +56,8 @@ const PriceInfo = () => (
                         <h4 className='title is-4'>{basePackage.title}</h4>
                     </header>
                     <p>
-                        Vårt grundläggande paket, perfekt för enklare hemsidor.
+                        Vårt grundläggande paket Bas, perfekt för enklare
+                        hemsidor.
                     </p>
                     <div className='body'>
                         {basePackage.features.map(item => (
@@ -69,7 +70,9 @@ const PriceInfo = () => (
                         ))}
                     </div>
                     <div className='price-tag'>
-                        <p>Pris: 19 999 kr</p>
+                        <p>
+                            Pris: 19 999 kr <span>(ex moms)</span>
+                        </p>
                     </div>
                     <Link
                         id='base-pac-link'
@@ -92,8 +95,8 @@ const PriceInfo = () => (
                     </header>
                     <div className='body'>
                         <p>
-                            Utöver allt som ingår i Grundlig erbjuder vi med
-                            paketet Digital Framgång en ännu mer anpassad
+                            Utöver allt som ingår i vårt paket Bas erbjuder vi
+                            med paketet Digital Framgång en ännu mer anpassad
                             lösning för särskilt specifika behov.
                         </p>
                         {taylored.features.map(item => (

@@ -36,6 +36,9 @@
             margin-top: 1rem;
             font-size: 1.25rem;
             color: $green;
+            span {
+                color: $grey-light;
+            }
         }
     }
 }

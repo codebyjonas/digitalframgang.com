@@ -1,6 +1,7 @@
 import React from 'react'
 import { links } from '../assets/Consts'
 import { Link } from 'react-scroll'
+import { FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => (
     <footer className='section is-small'>
@@ -16,6 +17,14 @@ const Footer = () => (
                         företag att nå ut bättre på internet. Våra
                         kontaktuppgifter finns nedan, vi hörs!
                     </p>
+                    <span className='icon'>
+                        <a
+                            href='https://hk.linkedin.com/company/digital-framg%C3%A5ng'
+                            target='_blank'
+                        >
+                            <FaLinkedin />
+                        </a>
+                    </span>
                 </div>
                 <div className='column menu'>
                     <h4 className='is-title is-4 has-blue-sidebar'>Meny</h4>
