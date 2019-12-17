@@ -5,7 +5,7 @@ import SkewedDivider from './subcomponents/SkewedDivider'
 const whyyUsTop3 = [
     {
         icon: <MdAttachMoney />,
-        title: 'Kostnadseffektiva',
+        title: 'Kostnadseffektivitet',
         copy:
             'Tack vare våra kostnadseffektiva metoder kan vi erbjuda marknadens bästa priser utan att kompromissa på kvalitet.'
     },
@@ -13,13 +13,13 @@ const whyyUsTop3 = [
         icon: <MdTrackChanges />,
         title: 'Helhetslösning',
         copy:
-            'Vi hjälper er från vision till en framgångsrik hemsida. Vi förstår att ni har en verksamhet att driva, varför det är helt upp till er hur involverade ni vill vara i processen.'
+            'Vi hjälper er från vision till en framgångsrik hemsida. Genom att erbjuda modern design kombinerat med framtagning av texter och bilder garanterar vi att ni kan ha fullt fokus på att driva er verksamhet.'
     },
     {
         icon: <MdSwapCalls />,
         title: 'Flexibilitet',
         copy:
-            'Våra kunder går i första hand och därför ser vi till att vara tillgängliga när det passar er. Genom att även vara lyhörda både före och under utvecklingsprocessen garanterar vi hemsidor som uppfyller era specifika behov.'
+            'Våra kunder går i första hand och därför ser vi till att vara tillgängliga när det passar er. Genom att även vara lyhörda både före och under utvecklingsprocessen garanterar vi hemsidor som är skräddarsydda efter era behov.'
     }
 ]
 
@@ -37,19 +37,16 @@ const Why = () => (
                     </h2>
                     <div id='why-text'>
                         <p>
-                            Vi är kostnadseffektiva webbutvecklare som riktar
-                            oss till små och medelstora företag som vill öka sin
-                            försäljning via sin hemsida. Oavsett om ni är ett
-                            e-handelsföretag eller sköter er försäljning via
-                            mail- och/eller telefonkontakt så har vi lösningen
-                            för just er. Genom att hjälpa er att få fler
+                            Vi är webbutvecklare som riktar oss till små och medelstora 
+                            företag som vill förbättra sin digitala närvaro. 
+                            Genom att hjälpa er att generera fler
                             besökare till er hemsida, samt konvertera dessa
                             besökare till kunder är vi en helhetspartner för
-                            ökad digital närvaro.
+                            en förbättrad digital närvaro.
                         </p>
                         <p>
-                            Med god kunskap inom affärsstrategi och erfarenheter
-                            inom marknadsföring kombinerat med flera års
+                            Genom att kombinera våra goda kunskaper inom marknadsföring 
+                            och affärsstrategi med flera års
                             arbetslivserfarenhet av webbutveckling ser vi till
                             att ni har rätt innehåll paketerat på rätt sätt.
                         </p>
