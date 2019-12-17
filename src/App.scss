@@ -102,6 +102,7 @@ $border-radius: 3px;
 }
 .title.is-3 {
     color: $green-light;
+    font-size: 1.75rem;
 }
 
 .large-spacing {
@@ -194,7 +195,13 @@ p {
     position: relative;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: $desktop) and (min-width: $tablet) {
+    .container {
+        margin: 0 3rem;
+    }
+}
+
+@media only screen and (max-width: $tablet) {
     p {
         font-size: 0.9em;
     }
