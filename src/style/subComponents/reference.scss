@@ -4,6 +4,21 @@
     background-color: white;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.2);
 
+    h4{
+        font-weight: 900;
+        color:black;
+        margin-top: 1em;
+    }
+
+    ul{
+        list-style: disc;
+        margin-left: 2em;
+        li{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+
     .image-container {
         height: 100%;
         background-position: center top;
@@ -21,30 +36,23 @@
     }
 
     .body {
+        .client-box{
+            background-color: $grey-light-light;
+            padding: 1em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
         .client-quote {
             font-style: italic;
+            margin-bottom: 0;
+            color:black;
+
         }
         .client-name-and-role {
             font-weight: bold;
-            margin-top: -1rem;
             text-align: right;
-        }
-
-        .nice-stats {
-            background: $beige-lighter;
-            border-radius: $border-radius;
-            margin-top: 1rem;
-            padding: 1rem;
-
-            div > div {
-                border-right: 1px solid $grey-light;
-                padding: 0 1rem;
-                margin-bottom: 1rem;
-
-                &:last-child {
-                    border-right: 0;
-                }
-            }
+            margin-bottom: 0;
+            color: $green;
         }
     }
 }
