@@ -70,20 +70,18 @@ class AboutUs extends React.Component {
                     <p>
                         Digital Framgång grundades av fyra studenter på
                         Linköpings Universitet med syfte att hjälpa små och
-                        medelstora företag i närområdet att öka sin försäljning
-                        genom en god digital närvaro. Genom att driva mer
+                        medelstora företag att öka sin försäljning
+                        genom en optimerad hemsida. Genom att driva mer
                         relevant trafik till våra kunders hemsidor samt höja
                         deras konverteringsgrad stärker vi våra kunders
                         konkurrenskraft på internet.
                     </p>
                     <p></p>
                     <p>
-                        Med fokus på effektiva punktinsatser kombinerat med
-                        flera års arbetslivserfarenhet av webbutveckling och ett
-                        nytänk kring marknadsföring online erbjuder vi ett
-                        kostnadseffektivt alternativ till de mer traditionella
-                        webbyråerna. Kontakta oss idag för att öka ditt företags
-                        försäljning!
+                        Med flera års arbetslivserfarenhet av webbutveckling och ett
+                        nytänk kring marknadsföring online erbjuder vi en helhetslösning för att 
+                        hjälpa våra kunder ska uppnå Digital Framgång. 
+                        Kontakta oss idag för att förbättra ditt företags hemsida och Digitala närvaro.
                     </p>
                     <section id='aboutus-pictures' className='section'>
                         <div className='columns is-multiline'>

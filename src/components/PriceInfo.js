@@ -34,20 +34,11 @@ const PriceInfo = () => (
         <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>Våra paket</h2>
             <p>
-                Vår grundidé bygger på att hjälpa alla typer av kunder, stora
-                som små, att uppnå digital framgång genom att kostnadseffektivt
-                utveckla hemsidor skräddarsydda för er verksamhet. Vi förstår
-                att våra klienter har olika behov och har därför utvecklat två
-                paket.
+                Vår grundidé bygger på att hjälpa företag i alla typer av branscher att uppnå digital framgång. 
+                Detta gör vi genom att utveckla hemsidor som är skräddarsydda för er verksamhet och era mål.   
             </p>
             <p>
-                Vårt paket <strong>Bas </strong>
-                är lösning för dig som vill ha en enkel och modern hemsida,
-                innehållande de mest central komponenterna för att öka din
-                försäljning. För dig med en verksamhet som kräver en mer komplex
-                lösning rekommenderar vi vårt paket{' '}
-                <strong>Digital Framgång </strong>där vi hjälper dig att
-                utveckla en hemsida som uppfyller dina specifika behov.
+                Vi förstår även att våra kunder har olika behov gällande komplexiteten på hemsidan, därför har vi tagit fram två paket.
             </p>
 
             <div className='columns'>
@@ -56,8 +47,10 @@ const PriceInfo = () => (
                         <h4 className='title is-4'>{basePackage.title}</h4>
                     </header>
                     <p>
-                        Vårt grundläggande paket Bas, perfekt för enklare
-                        hemsidor.
+                        Vårt grundläggande paket Bas är för er som
+                        vill ha en modern, skräddarsydd och enkel hemsida som 
+                        innehåller de viktigaste delarna för att 
+                        förbättra er Digitala närvaro.
                     </p>
                     <div className='body'>
                         {basePackage.features.map(item => (
@@ -96,8 +89,8 @@ const PriceInfo = () => (
                     <div className='body'>
                         <p>
                             Utöver allt som ingår i vårt paket Bas erbjuder vi
-                            med paketet Digital Framgång en ännu mer anpassad
-                            lösning för särskilt specifika behov.
+                            med paketet Digital Framgång en ännu mer skräddarsydd lösning
+                            som hjälper ert företag att uppnå den högsta nivån av Digital närvaro.
                         </p>
                         {taylored.features.map(item => (
                             <div>
