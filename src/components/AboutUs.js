@@ -58,11 +58,7 @@ class AboutUs extends React.Component {
 
     render() {
         return (
-            <section
-                id='about-us'
-                name='about-us'
-                className='section is-medium'
-            >
+            <section id='about-us' name='about-us' className='section  '>
                 <div className='container'>
                     <h2 className='title is-1 has-blue-sidebar'>
                         Vilka är vi?
@@ -70,18 +66,19 @@ class AboutUs extends React.Component {
                     <p>
                         Digital Framgång grundades av fyra studenter på
                         Linköpings Universitet med syfte att hjälpa små och
-                        medelstora företag att öka sin försäljning
-                        genom en optimerad hemsida. Genom att driva mer
-                        relevant trafik till våra kunders hemsidor samt höja
-                        deras konverteringsgrad stärker vi våra kunders
+                        medelstora företag att öka sin försäljning genom en
+                        optimerad hemsida. Genom att driva mer relevant trafik
+                        till våra kunders hemsidor samt höja deras
+                        konverteringsgrad stärker vi våra kunders
                         konkurrenskraft på internet.
                     </p>
                     <p></p>
                     <p>
-                        Med flera års arbetslivserfarenhet av webbutveckling och ett
-                        nytänk kring marknadsföring online erbjuder vi en helhetslösning för att 
-                        hjälpa våra kunder ska uppnå Digital Framgång. 
-                        Kontakta oss idag för att förbättra ditt företags hemsida och Digitala närvaro.
+                        Med flera års arbetslivserfarenhet av webbutveckling och
+                        ett nytänk kring marknadsföring online erbjuder vi en
+                        helhetslösning för att hjälpa våra kunder ska uppnå
+                        Digital Framgång. Kontakta oss idag för att förbättra
+                        ditt företags hemsida och Digitala närvaro.
                     </p>
                     <section id='aboutus-pictures' className='section'>
                         <div className='columns is-multiline'>

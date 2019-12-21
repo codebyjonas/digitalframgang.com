@@ -1,7 +1,7 @@
 import React from 'react'
 
 const How = () => (
-    <section className='section is-medium'>
+    <section className='section  '>
         <div className='container'>
             <h2 className='title is-1'>Så går det till</h2>
             <h3 className='subtitle is-2'>

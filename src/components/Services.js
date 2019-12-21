@@ -27,7 +27,7 @@ const Services = () => (
     <section
         id='services'
         name='services'
-        className='section is-medium has-light-grey-background'
+        className='section has-light-grey-background'
     >
         <div className='container'>
             <h2 className='title is-1'>Våra tjänster</h2>

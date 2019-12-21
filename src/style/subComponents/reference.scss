@@ -1,19 +1,22 @@
+#references {
+    padding-top: 5rem;
+}
 .reference {
     border-radius: $border-radius;
     border: 1rem solid white;
     background-color: white;
     box-shadow: 0 0 20px rgba(102, 102, 102, 0.2);
 
-    h4{
+    h4 {
         font-weight: 900;
-        color:black;
+        color: black;
         margin-top: 1em;
     }
 
-    ul{
+    ul {
         list-style: disc;
         margin-left: 2em;
-        li{
+        li {
             margin-top: 5px;
             margin-bottom: 5px;
         }
@@ -36,7 +39,7 @@
     }
 
     .body {
-        .client-box{
+        .client-box {
             background-color: $grey-light-light;
             padding: 1em;
             margin-top: 1em;
@@ -45,8 +48,7 @@
         .client-quote {
             font-style: italic;
             margin-bottom: 0;
-            color:black;
-
+            color: black;
         }
         .client-name-and-role {
             font-weight: bold;

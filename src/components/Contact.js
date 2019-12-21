@@ -97,7 +97,7 @@ class Contact extends React.Component {
             <section
                 id='contact'
                 name='contact-us'
-                className='section is-medium has-img-background'
+                className='section   has-img-background'
             >
                 <div
                     id='contact-container'

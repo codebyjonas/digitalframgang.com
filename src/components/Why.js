@@ -24,11 +24,7 @@ const whyyUsTop3 = [
 ]
 
 const Why = () => (
-    <section
-        id='why-us'
-        name='why-us'
-        className='section is-medium why-section'
-    >
+    <section id='why-us' name='why-us' className='section   why-section'>
         <div id='why-text-container' className='container'>
             <div className='columns is-8 is-variable'>
                 <div className='column'>
@@ -37,16 +33,16 @@ const Why = () => (
                     </h2>
                     <div id='why-text'>
                         <p>
-                            Vi är webbutvecklare som riktar oss till små och medelstora 
-                            företag som vill förbättra sin digitala närvaro. 
-                            Genom att hjälpa er att generera fler
+                            Vi är webbutvecklare som riktar oss till små och
+                            medelstora företag som vill förbättra sin digitala
+                            närvaro. Genom att hjälpa er att generera fler
                             besökare till er hemsida, samt konvertera dessa
-                            besökare till kunder är vi en helhetspartner för
-                            en förbättrad digital närvaro.
+                            besökare till kunder är vi en helhetspartner för en
+                            förbättrad digital närvaro.
                         </p>
                         <p>
-                            Genom att kombinera våra goda kunskaper inom marknadsföring 
-                            och affärsstrategi med flera års
+                            Genom att kombinera våra goda kunskaper inom
+                            marknadsföring och affärsstrategi med flera års
                             arbetslivserfarenhet av webbutveckling ser vi till
                             att ni har rätt innehåll paketerat på rätt sätt.
                         </p>
