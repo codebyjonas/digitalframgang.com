@@ -6,7 +6,7 @@ const ourServices = [
     {
         title: 'Skräddarsydda hemsidor',
         text:
-            'är vi skapar en hemsida till ert företag sköter vi hela processen. Allt börjar med en grundlig analys av ert företag och era mål, hemsidans utformning grundar sig sedan i denna analys. Vår beprövade metod leder till en hemsida anpassad efter er målgrupp som genererar besökare och framtida kunder.',
+            'När vi skapar en hemsida till ert företag sköter vi hela processen. Allt börjar med en grundlig analys av ert företag och era mål, hemsidans utformning grundar sig sedan i denna analys. Vår beprövade metod leder till en hemsida anpassad efter er målgrupp som genererar besökare och framtida kunder.',
         icon: <MdImportantDevices />
     },
     {
