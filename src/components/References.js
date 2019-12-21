@@ -27,7 +27,7 @@ const References = () => (
     <section
         id='references'
         name='prince-info'
-        className='section   has-light-grey-background has-position-relative'
+        className='section has-light-grey-background has-position-relative'
     >
         <div className='container'>
             <h2 className='title is-1 has-blue-sidebar'>Våra kundcase</h2>
@@ -35,7 +35,6 @@ const References = () => (
                 <Reference reference={reference}></Reference>
             ))}
         </div>
-        <SkewedDivider color='#fff' direction='left' />
     </section>
 )
 export default References
