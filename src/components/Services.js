@@ -1,6 +1,27 @@
 import React from 'react'
-import { MdAssessment, MdSearch, MdLoop, MdAttachMoney } from 'react-icons/md'
-import { FaMailBulk } from 'react-icons/fa'
+import { MdImportantDevices } from 'react-icons/md'
+import { FaSearchPlus, FaChartLine } from 'react-icons/fa'
+
+const ourServices = [
+    {
+        title: 'Skräddarsydda hemsidor',
+        text:
+            'är vi skapar en hemsida till ert företag sköter vi hela processen. Allt börjar med en grundlig analys av ert företag och era mål, hemsidans utformning grundar sig sedan i denna analys. Vår beprövade metod leder till en hemsida anpassad efter er målgrupp som genererar besökare och framtida kunder.',
+        icon: <MdImportantDevices />
+    },
+    {
+        title: 'Sökmotoroptimering',
+        text:
+            'En modern hemsida kräver innehåll som är anpassat för besökarna och sökmotorer. Därför hjälper vi er med att ta fram texter, bilder och filmer som är anpassade för ert företag. Med hjälp av vår erfarenhet skapar vi texter som är sökmotorsoptimerade och hjälper era kunder att hitta till er. ',
+        icon: <FaSearchPlus />
+    },
+    {
+        title: 'Konverteringsoptimering',
+        text:
+            'Genom beprövade metoder arbetar vi med att optimera er hemsida så att era besökare blir kunder. Med flera års erfarenhet vet vi vad som fungerar och inte. Vi installerar vid varje leverans ett mätverktyg där ni kan följa effektiviteten på våra insatser och utvecklingen av er hemsida.',
+        icon: <FaChartLine />
+    }
+]
 
 const Services = () => (
     <section
@@ -9,58 +30,21 @@ const Services = () => (
         className='section is-medium has-light-grey-background'
     >
         <div className='container'>
-            <h2 className='title is-1 has-blue-sidebar'>
-                Vårt framgångsrecept för en optimerad hemsida
-            </h2>
-            <div className='columns service-cards'>
-                <div className='column service-card'>
-                    <span className='icon'>
-                        <MdAssessment />
-                    </span>
-                    <h2 className='title is-3'>Helhetsanalys</h2>
-                    <p>
-                        För att garantera träffsäkerheten i våra åtgärder ser vi
-                        till att erhålla en tydlig bild av både ert företag och
-                        era målkunder
-                    </p>
-                </div>
-                <div className='column service-card'>
-                    <span className='icon'>
-                        <MdSearch />
-                    </span>
-                    <h2 className='title is-3'>Synlighet</h2>
-                    <p>
-                        Genom effektiva punktinsatser gör vi er hemsida synlig -
-                        Så att potentiella kunder hittar till er istället för
-                        till konkurrenterna
-                    </p>
-                </div>
-                <div className='column service-card'>
-                    <span class='icon'>
-                        <MdLoop />
-                    </span>
-
-                    <h2 className='title is-3'>Konvertering</h2>
-                    <p>
-                        Vi nöjer oss inte med att enbart locka fler besökare
-                        till er hemsida , vi hjälper er även att konvertera
-                        dessa besökare till kunder
-                    </p>
-                </div>
-                <div className='column service-card'>
-                    <span class='icon'>
-                        <FaMailBulk />
-                    </span>
-
-                    <h2 className='title is-3'>Uppföljning</h2>
-                    <p>
-                        Vi håller vad vi lovar och därför är vi noggranna i vår
-                        uppföljning. För att ni kontinuerligt ska kunna följa
-                        upp och förbättra er digitala närvaro inkluderar vi även
-                        ett användarvänligt uppföljningsverktyg - Helt utan
-                        extra kostnad
-                    </p>
-                </div>
+            <h2 className='title is-1'>Våra tjänster</h2>
+            <p className='intro-text'>
+                Skräddarsydda hemsidor, sökmotor- och konverteringsoptimering.
+                Tre grundpelare på vilka vårt företag vilar. Men vi kan även så
+                mycket mer, så oavsett vad just du är intresserad av är vi säkra
+                på att vi kan hjälpa er!
+            </p>
+            <div className='columns'>
+                {ourServices.map(service => (
+                    <div className='column'>
+                        <span className='icon'>{service.icon}</span>
+                        <h2 className='title is-4'>{service.title}</h2>
+                        <p>{service.text}</p>
+                    </div>
+                ))}
             </div>
         </div>
     </section>
